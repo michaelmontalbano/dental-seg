@@ -1,0 +1,41 @@
+{
+  "dataset_info": {
+    "source_bucket": "codentist-general",
+    "panoramic_prefix": "datasets/panoramic_dataset",
+    "merged_bw_pa_prefix": "datasets/merged_bw_pa",
+    "total_images": 57275,
+    "val_ratio": 0.2,
+    "random_seed": 42,
+    "classification_type": "binary",
+    "classes": [
+      "panoramic",
+      "non_panoramic"
+    ]
+  },
+  "original_splits": {
+    "panoramic_train": 772,
+    "panoramic_val": 3041,
+    "non_panoramic_train": 48116,
+    "non_panoramic_val": 5346
+  },
+  "final_splits": {
+    "train_images": 45821,
+    "val_images": 11454,
+    "train_ratio": 0.8000174596246181,
+    "val_ratio": 0.19998254037538193
+  },
+  "class_distribution": {
+    "train": {
+      "non_panoramic": 42770,
+      "panoramic": 3051
+    },
+    "val": {
+      "non_panoramic": 10692,
+      "panoramic": 762
+    }
+  },
+  "files_created": [
+    "./data/train.json",
+    "./data/val.json"
+  ]
+}

@@ -1,0 +1,42 @@
+train: train/images
+val: valid/images
+test: test/images
+
+names: 
+  0: 3M ESPE
+  1: AGS Medikal
+  2: AMerOss
+  3: Anthogyr
+  4: Bicon
+  5: BioHorizons
+  6: BioLife
+  7: Biomet 3i
+  8: Blue Sky Bio
+  9: Camlog
+  10: Cowellmedi
+  11: DENTSPLY
+  12: Dentatus
+  13: Dentis
+  14: Dentium
+  15: Euroteknika
+  16: Frontier
+  17: Hiossen
+  18: Implant Direct
+  19: Keystone Dental
+  20: Leone
+  21: MIS
+  22: Megagen
+  23: Neodent
+  24: Neoss
+  25: Nobel Biocare
+  26: Novodent
+  27: NucleOSS
+  28: OCO Biomedical
+  29: OsseoLink
+  30: Osstem Implant
+  31: Sterngold
+  32: Straumann
+  33: Straumann ITI
+  34: Titan Implants
+  35: Zimmer
+

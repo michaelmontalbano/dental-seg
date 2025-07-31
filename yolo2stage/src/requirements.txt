@@ -1,0 +1,43 @@
+# CRITICAL: NumPy compatibility fix - install first
+numpy<2.0,>=1.21.0
+
+# Official Ultralytics YOLOv8 with segmentation support
+ultralytics>=8.2.0
+
+# Supervision for post-processing and utilities
+supervision>=0.15.0
+
+# Core ML frameworks
+torch>=2.0.0
+torchvision>=0.15.0
+pillow>=9.0.0
+scikit-learn>=1.0.0
+
+# Data processing and augmentation
+albumentations>=1.3.0
+opencv-python>=4.8.0
+PyYAML>=6.0
+tqdm>=4.64.0
+
+# Evaluation and metrics
+torchmetrics>=1.0.0
+
+# Segmentation-specific libraries
+pycocotools>=2.0.6  # For COCO format and mask utilities
+shapely>=2.0.0       # For polygon operations
+rasterio>=1.3.0      # For mask I/O operations
+
+# Visualization and debugging
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# AWS and cloud utilities
+boto3>=1.26.0        # For S3 model downloads
+
+# Transformer utilities (optional, keep if other parts of your project use them)
+timm>=0.9.0
+einops>=0.7.0
+
+wandb>=0.15.0
+
+# Note: Removed specific huggingface_hub pin - ultralytics manages this dependency

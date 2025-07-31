@@ -1,0 +1,62 @@
+# CRITICAL: NumPy compatibility fix - install first
+numpy<2.0,>=1.21.0
+
+# Core MedSAM and SAM dependencies
+git+https://github.com/facebookresearch/segment-anything.git
+# Note: MedSAM is typically installed from source, but we'll use custom implementation
+# git+https://github.com/bowang-lab/MedSAM.git
+
+# Core ML frameworks - Compatible versions for SageMaker PyTorch 2.3.0
+torch>=2.0.0,<2.4.0
+torchvision>=0.15.0,<0.19.0
+torchaudio>=2.0.0,<2.4.0
+pillow>=9.0.0
+scikit-learn>=1.0.0
+
+# Computer vision and image processing
+opencv-python>=4.8.0
+scikit-image>=0.20.0
+
+# Medical imaging (core dependencies only)
+monai>=1.0.0
+pydicom>=2.3.0
+SimpleITK>=2.2.0
+
+# Data processing
+pandas>=1.5.0
+scipy>=1.9.0
+
+# Visualization
+matplotlib>=3.6.0
+seaborn>=0.12.0
+
+# Segmentation utilities
+pycocotools>=2.0.6  # For COCO format handling
+shapely>=2.0.0       # For polygon operations
+
+# Prompt engineering and augmentation
+albumentations>=1.3.0
+
+# Evaluation metrics
+torchmetrics>=1.0.0
+
+# Configuration and utilities
+PyYAML>=6.0
+tqdm>=4.64.0
+wandb>=0.15.0  # For experiment tracking
+
+# AWS/SageMaker (following pattern from other projects)
+boto3>=1.26.0
+sagemaker>=2.130.0
+
+# Development and testing (optional)
+pytest>=7.0.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Optional: ONNX for model export
+onnx>=1.14.0
+onnxruntime-gpu>=1.15.0
+
+# Note: All dependencies should be installed via this requirements.txt file
+# This follows the same pattern as unet-trans and yolov8-seg projects

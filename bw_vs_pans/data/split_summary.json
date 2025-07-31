@@ -1,0 +1,24 @@
+{
+  "dataset_info": {
+    "source_bucket": "codentist-general",
+    "source_prefix": "datasets/bw_pa_pans",
+    "total_images": 4045,
+    "val_ratio": 0.2,
+    "random_seed": 42
+  },
+  "class_distribution": {
+    "bitewing": 853,
+    "panoramic": 1336,
+    "periapical": 1856
+  },
+  "split_info": {
+    "train_images": 3237,
+    "val_images": 808,
+    "train_ratio": 0.8002472187886279,
+    "val_ratio": 0.19975278121137208
+  },
+  "files_created": [
+    "./data/train.json",
+    "./data/val.json"
+  ]
+}

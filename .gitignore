@@ -1,0 +1,17 @@
+# .gitignore
+
+# Model weights
+*.pth
+*.pt
+*.ckpt
+
+# Archives
+*.tar.gz
+*.zip
+*.tar
+*.7z
+
+# Other large files
+*.h5
+*.onnx
+

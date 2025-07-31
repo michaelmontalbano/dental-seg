@@ -1,0 +1,6468 @@
+{
+  "images": [
+    {
+      "id": 1,
+      "file_name": "periapical_0817_817.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0817_817.png"
+    },
+    {
+      "id": 2,
+      "file_name": "bitewing_0026_X13625_8.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0026_X13625_8.JPG"
+    },
+    {
+      "id": 3,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0175_73.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0175_73.png"
+    },
+    {
+      "id": 4,
+      "file_name": "periapical_0497_497.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0497_497.png"
+    },
+    {
+      "id": 5,
+      "file_name": "bitewing_0773_X12962.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0773_X12962.JPG"
+    },
+    {
+      "id": 6,
+      "file_name": "periapical_0141_141.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0141_141.png"
+    },
+    {
+      "id": 7,
+      "file_name": "bitewing_0099_X12160_10.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0099_X12160_10.JPG"
+    },
+    {
+      "id": 8,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0393_525.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0393_525.jpg"
+    },
+    {
+      "id": 9,
+      "file_name": "panoramic_0715_42.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0715_42.jpg"
+    },
+    {
+      "id": 10,
+      "file_name": "panoramic_0753_84.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0753_84.jpg"
+    },
+    {
+      "id": 11,
+      "file_name": "periapical_0632_632.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0632_632.png"
+    },
+    {
+      "id": 12,
+      "file_name": "panoramic_0038_16.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0038_16.png"
+    },
+    {
+      "id": 13,
+      "file_name": "periapical_0492_492.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0492_492.png"
+    },
+    {
+      "id": 14,
+      "file_name": "periapical_0295_842.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0295_842.png"
+    },
+    {
+      "id": 15,
+      "file_name": "periapical_0295_295.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0295_295.png"
+    },
+    {
+      "id": 16,
+      "file_name": "bitewing_0835_X15560_4.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0835_X15560_4.JPG"
+    },
+    {
+      "id": 17,
+      "file_name": "panoramic_0084_7.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0084_7.jpg"
+    },
+    {
+      "id": 18,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0152_371.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0152_371.jpg"
+    },
+    {
+      "id": 19,
+      "file_name": "panoramic_0252_8.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0252_8.png"
+    },
+    {
+      "id": 20,
+      "file_name": "periapical_0708_708.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0708_708.png"
+    },
+    {
+      "id": 21,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0537_291.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0537_291.jpg"
+    },
+    {
+      "id": 22,
+      "file_name": "periapical_0517_724.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0517_724.png"
+    },
+    {
+      "id": 23,
+      "file_name": "periapical_0741_741.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0741_741.png"
+    },
+    {
+      "id": 24,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0621_7.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0621_7.jpg"
+    },
+    {
+      "id": 25,
+      "file_name": "panoramic_0016_70.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0016_70.png"
+    },
+    {
+      "id": 26,
+      "file_name": "bitewing_0206_X13714_1-Copy.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0206_X13714_1-Copy.JPG"
+    },
+    {
+      "id": 27,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0576_433.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0576_433.jpg"
+    },
+    {
+      "id": 28,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0184_166.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0184_166.jpg"
+    },
+    {
+      "id": 29,
+      "file_name": "periapical_0708_181.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0708_181.png"
+    },
+    {
+      "id": 30,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0429_296.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0429_296.jpg"
+    },
+    {
+      "id": 31,
+      "file_name": "bitewing_1098_X12255_4.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_1098_X12255_4.JPG"
+    },
+    {
+      "id": 32,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0484_251.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0484_251.jpg"
+    },
+    {
+      "id": 33,
+      "file_name": "periapical_0191_9.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0191_9.png"
+    },
+    {
+      "id": 34,
+      "file_name": "periapical_0125_548.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0125_548.png"
+    },
+    {
+      "id": 35,
+      "file_name": "periapical_0084_49.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0084_49.png"
+    },
+    {
+      "id": 36,
+      "file_name": "bitewing_0713_X15011_5.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0713_X15011_5.JPG"
+    },
+    {
+      "id": 37,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0117_549.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0117_549.jpg"
+    },
+    {
+      "id": 38,
+      "file_name": "panoramic_0249_64.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0249_64.png"
+    },
+    {
+      "id": 39,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0122_777.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0122_777.png"
+    },
+    {
+      "id": 40,
+      "file_name": "periapical_0200_200.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0200_200.png"
+    },
+    {
+      "id": 41,
+      "file_name": "periapical_0909_909.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0909_909.png"
+    },
+    {
+      "id": 42,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0238_17.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0238_17.jpg"
+    },
+    {
+      "id": 43,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0491_319.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0491_319.jpg"
+    },
+    {
+      "id": 44,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0460_132.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0460_132.jpg"
+    },
+    {
+      "id": 45,
+      "file_name": "bitewing_0034_X13788_26.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0034_X13788_26.JPG"
+    },
+    {
+      "id": 46,
+      "file_name": "panoramic_0299_26.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0299_26.png"
+    },
+    {
+      "id": 47,
+      "file_name": "periapical_0888_768.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0888_768.png"
+    },
+    {
+      "id": 48,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0264_301.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0264_301.jpg"
+    },
+    {
+      "id": 49,
+      "file_name": "bitewing_0201_X11088_1.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0201_X11088_1.JPG"
+    },
+    {
+      "id": 50,
+      "file_name": "periapical_0724_340.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0724_340.png"
+    },
+    {
+      "id": 51,
+      "file_name": "bitewing_0255_X13625_29.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0255_X13625_29.JPG"
+    },
+    {
+      "id": 52,
+      "file_name": "periapical_0929_929.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0929_929.png"
+    },
+    {
+      "id": 53,
+      "file_name": "periapical_0272_272.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0272_272.png"
+    },
+    {
+      "id": 54,
+      "file_name": "panoramic_0102_53.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0102_53.jpg"
+    },
+    {
+      "id": 55,
+      "file_name": "periapical_0234_234.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0234_234.png"
+    },
+    {
+      "id": 56,
+      "file_name": "periapical_0598_598.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0598_598.png"
+    },
+    {
+      "id": 57,
+      "file_name": "bitewing_0180_X11118_11.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0180_X11118_11.JPG"
+    },
+    {
+      "id": 58,
+      "file_name": "bitewing_0277_X00174_4.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0277_X00174_4.JPG"
+    },
+    {
+      "id": 59,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0168_204.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0168_204.jpg"
+    },
+    {
+      "id": 60,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0458_318.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0458_318.png"
+    },
+    {
+      "id": 61,
+      "file_name": "periapical_0279_248.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0279_248.png"
+    },
+    {
+      "id": 62,
+      "file_name": "bitewing_1081_X14160_8.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_1081_X14160_8.JPG"
+    },
+    {
+      "id": 63,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0497_457.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0497_457.jpg"
+    },
+    {
+      "id": 64,
+      "file_name": "bitewing_0985_X03619_4.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0985_X03619_4.JPG"
+    },
+    {
+      "id": 65,
+      "file_name": "periapical_0732_356.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0732_356.png"
+    },
+    {
+      "id": 66,
+      "file_name": "periapical_0380_925.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0380_925.png"
+    },
+    {
+      "id": 67,
+      "file_name": "panoramic_0723_51.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0723_51.jpg"
+    },
+    {
+      "id": 68,
+      "file_name": "periapical_0044_44.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0044_44.png"
+    },
+    {
+      "id": 69,
+      "file_name": "bitewing_0376_X11603_4.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0376_X11603_4.JPG"
+    },
+    {
+      "id": 70,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0116_548.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0116_548.jpg"
+    },
+    {
+      "id": 71,
+      "file_name": "periapical_0513_532.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0513_532.png"
+    },
+    {
+      "id": 72,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0371_487.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0371_487.jpg"
+    },
+    {
+      "id": 73,
+      "file_name": "periapical_0783_633.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0783_633.png"
+    },
+    {
+      "id": 74,
+      "file_name": "periapical_0216_216.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0216_216.png"
+    },
+    {
+      "id": 75,
+      "file_name": "periapical_0162_8.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0162_8.png"
+    },
+    {
+      "id": 76,
+      "file_name": "periapical_0196_196.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0196_196.png"
+    },
+    {
+      "id": 77,
+      "file_name": "periapical_0737_737.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0737_737.png"
+    },
+    {
+      "id": 78,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0012_348.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0012_348.jpg"
+    },
+    {
+      "id": 79,
+      "file_name": "bitewing_0831_X00119.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0831_X00119.JPG"
+    },
+    {
+      "id": 80,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0658_579.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0658_579.jpg"
+    },
+    {
+      "id": 81,
+      "file_name": "periapical_0549_549.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0549_549.png"
+    },
+    {
+      "id": 82,
+      "file_name": "panoramic_0629_65.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0629_65.jpg"
+    },
+    {
+      "id": 83,
+      "file_name": "periapical_0145_145.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0145_145.png"
+    },
+    {
+      "id": 84,
+      "file_name": "panoramic_0072_19.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0072_19.jpg"
+    },
+    {
+      "id": 85,
+      "file_name": "bitewing_0981_X11980_3.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0981_X11980_3.JPG"
+    },
+    {
+      "id": 86,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0565_157.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0565_157.jpg"
+    },
+    {
+      "id": 87,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0435_1058.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0435_1058.png"
+    },
+    {
+      "id": 88,
+      "file_name": "periapical_0469_469.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0469_469.png"
+    },
+    {
+      "id": 89,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0356_307.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0356_307.jpg"
+    },
+    {
+      "id": 90,
+      "file_name": "periapical_0679_679.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0679_679.png"
+    },
+    {
+      "id": 91,
+      "file_name": "periapical_0305_315.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0305_315.png"
+    },
+    {
+      "id": 92,
+      "file_name": "periapical_0009_610.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0009_610.png"
+    },
+    {
+      "id": 93,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0044_163.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0044_163.jpg"
+    },
+    {
+      "id": 94,
+      "file_name": "periapical_0815_815.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0815_815.png"
+    },
+    {
+      "id": 95,
+      "file_name": "periapical_0075_75.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0075_75.png"
+    },
+    {
+      "id": 96,
+      "file_name": "periapical_0348_884.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0348_884.png"
+    },
+    {
+      "id": 97,
+      "file_name": "periapical_0706_706.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0706_706.png"
+    },
+    {
+      "id": 98,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0385_901.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0385_901.png"
+    },
+    {
+      "id": 99,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0293_503.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0293_503.jpg"
+    },
+    {
+      "id": 100,
+      "file_name": "panoramic_0209_40.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0209_40.png"
+    },
+    {
+      "id": 101,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0635_381.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0635_381.jpg"
+    },
+    {
+      "id": 102,
+      "file_name": "periapical_0409_677.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0409_677.png"
+    },
+    {
+      "id": 103,
+      "file_name": "periapical_0006_6.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0006_6.png"
+    },
+    {
+      "id": 104,
+      "file_name": "periapical_0824_233.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0824_233.png"
+    },
+    {
+      "id": 105,
+      "file_name": "periapical_0560_708.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0560_708.png"
+    },
+    {
+      "id": 106,
+      "file_name": "periapical_0296_296.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0296_296.png"
+    },
+    {
+      "id": 107,
+      "file_name": "panoramic_0127_75.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0127_75.png"
+    },
+    {
+      "id": 108,
+      "file_name": "panoramic_0634_71.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0634_71.jpg"
+    },
+    {
+      "id": 109,
+      "file_name": "panoramic_0094_97.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0094_97.png"
+    },
+    {
+      "id": 110,
+      "file_name": "periapical_0718_718.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0718_718.png"
+    },
+    {
+      "id": 111,
+      "file_name": "bitewing_0625_X11435_1.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0625_X11435_1.JPG"
+    },
+    {
+      "id": 112,
+      "file_name": "periapical_0251_882.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0251_882.png"
+    },
+    {
+      "id": 113,
+      "file_name": "bitewing_0832_X11099_7.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0832_X11099_7.JPG"
+    },
+    {
+      "id": 114,
+      "file_name": "bitewing_1088_X08529_8.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_1088_X08529_8.JPG"
+    },
+    {
+      "id": 115,
+      "file_name": "periapical_0739_739.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0739_739.png"
+    },
+    {
+      "id": 116,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0228_458.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0228_458.jpg"
+    },
+    {
+      "id": 117,
+      "file_name": "bitewing_0601_X13714.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0601_X13714.JPG"
+    },
+    {
+      "id": 118,
+      "file_name": "bitewing_0149_X09582_21.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0149_X09582_21.JPG"
+    },
+    {
+      "id": 119,
+      "file_name": "periapical_0181_181.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0181_181.png"
+    },
+    {
+      "id": 120,
+      "file_name": "periapical_0195_195.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0195_195.png"
+    },
+    {
+      "id": 121,
+      "file_name": "bitewing_0007_X09582_37.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0007_X09582_37.JPG"
+    },
+    {
+      "id": 122,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0323_138.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0323_138.jpg"
+    },
+    {
+      "id": 123,
+      "file_name": "periapical_0334_258.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0334_258.png"
+    },
+    {
+      "id": 124,
+      "file_name": "panoramic_0062_37.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0062_37.png"
+    },
+    {
+      "id": 125,
+      "file_name": "periapical_0411_411.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0411_411.png"
+    },
+    {
+      "id": 126,
+      "file_name": "periapical_0865_350.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0865_350.png"
+    },
+    {
+      "id": 127,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0294_517.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0294_517.jpg"
+    },
+    {
+      "id": 128,
+      "file_name": "periapical_0254_464.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0254_464.png"
+    },
+    {
+      "id": 129,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0550_130.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0550_130.jpg"
+    },
+    {
+      "id": 130,
+      "file_name": "panoramic_0664_109.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0664_109.jpg"
+    },
+    {
+      "id": 131,
+      "file_name": "periapical_0358_358.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0358_358.png"
+    },
+    {
+      "id": 132,
+      "file_name": "bitewing_0653_X13278_8.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0653_X13278_8.JPG"
+    },
+    {
+      "id": 133,
+      "file_name": "periapical_0520_693.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0520_693.png"
+    },
+    {
+      "id": 134,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0025_201.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0025_201.jpg"
+    },
+    {
+      "id": 135,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0110_71.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0110_71.png"
+    },
+    {
+      "id": 136,
+      "file_name": "periapical_0902_231.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0902_231.png"
+    },
+    {
+      "id": 137,
+      "file_name": "bitewing_0507_X08071_13.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0507_X08071_13.JPG"
+    },
+    {
+      "id": 138,
+      "file_name": "bitewing_0185_X12379_2.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0185_X12379_2.JPG"
+    },
+    {
+      "id": 139,
+      "file_name": "bitewing_0567_X09582_44.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0567_X09582_44.JPG"
+    },
+    {
+      "id": 140,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0112_206.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0112_206.jpg"
+    },
+    {
+      "id": 141,
+      "file_name": "periapical_0322_846.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0322_846.png"
+    },
+    {
+      "id": 142,
+      "file_name": "periapical_0670_670.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0670_670.png"
+    },
+    {
+      "id": 143,
+      "file_name": "periapical_0414_313.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0414_313.png"
+    },
+    {
+      "id": 144,
+      "file_name": "periapical_0349_674.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0349_674.png"
+    },
+    {
+      "id": 145,
+      "file_name": "periapical_0328_328.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0328_328.png"
+    },
+    {
+      "id": 146,
+      "file_name": "bitewing_0323_X10132_12.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0323_X10132_12.JPG"
+    },
+    {
+      "id": 147,
+      "file_name": "bitewing_0131_X11088_4.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0131_X11088_4.JPG"
+    },
+    {
+      "id": 148,
+      "file_name": "bitewing_0921_X11860_6.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0921_X11860_6.JPG"
+    },
+    {
+      "id": 149,
+      "file_name": "periapical_0784_784.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0784_784.png"
+    },
+    {
+      "id": 150,
+      "file_name": "bitewing_0890_X11338_15.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0890_X11338_15.JPG"
+    },
+    {
+      "id": 151,
+      "file_name": "periapical_0572_572.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0572_572.png"
+    },
+    {
+      "id": 152,
+      "file_name": "periapical_0231_231.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0231_231.png"
+    },
+    {
+      "id": 153,
+      "file_name": "panoramic_0708_35.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0708_35.jpg"
+    },
+    {
+      "id": 154,
+      "file_name": "periapical_0148_373.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0148_373.png"
+    },
+    {
+      "id": 155,
+      "file_name": "periapical_0629_509.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0629_509.png"
+    },
+    {
+      "id": 156,
+      "file_name": "panoramic_0013_65.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0013_65.jpg"
+    },
+    {
+      "id": 157,
+      "file_name": "panoramic_0129_59.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0129_59.png"
+    },
+    {
+      "id": 158,
+      "file_name": "panoramic_0153_17.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0153_17.png"
+    },
+    {
+      "id": 159,
+      "file_name": "periapical_0289_289.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0289_289.png"
+    },
+    {
+      "id": 160,
+      "file_name": "bitewing_0476_X11368_7.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0476_X11368_7.JPG"
+    },
+    {
+      "id": 161,
+      "file_name": "periapical_0339_927.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0339_927.png"
+    },
+    {
+      "id": 162,
+      "file_name": "periapical_0490_490.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0490_490.png"
+    },
+    {
+      "id": 163,
+      "file_name": "panoramic_0094_2.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0094_2.jpg"
+    },
+    {
+      "id": 164,
+      "file_name": "periapical_0813_813.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0813_813.png"
+    },
+    {
+      "id": 165,
+      "file_name": "bitewing_0181_X13119_6.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0181_X13119_6.JPG"
+    },
+    {
+      "id": 166,
+      "file_name": "periapical_0111_111.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0111_111.png"
+    },
+    {
+      "id": 167,
+      "file_name": "bitewing_0132_X12552_5.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0132_X12552_5.JPG"
+    },
+    {
+      "id": 168,
+      "file_name": "periapical_0645_645.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0645_645.png"
+    },
+    {
+      "id": 169,
+      "file_name": "bitewing_0529_X12268_42.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0529_X12268_42.JPG"
+    },
+    {
+      "id": 170,
+      "file_name": "periapical_0805_145.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0805_145.png"
+    },
+    {
+      "id": 171,
+      "file_name": "periapical_0560_560.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0560_560.png"
+    },
+    {
+      "id": 172,
+      "file_name": "panoramic_0616_51.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0616_51.jpg"
+    },
+    {
+      "id": 173,
+      "file_name": "periapical_0599_443.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0599_443.png"
+    },
+    {
+      "id": 174,
+      "file_name": "bitewing_1054_X11099_2.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_1054_X11099_2.JPG"
+    },
+    {
+      "id": 175,
+      "file_name": "bitewing_0295_X13418_15.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0295_X13418_15.JPG"
+    },
+    {
+      "id": 176,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0299_258.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0299_258.jpg"
+    },
+    {
+      "id": 177,
+      "file_name": "periapical_0024_572.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0024_572.png"
+    },
+    {
+      "id": 178,
+      "file_name": "periapical_0847_193.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0847_193.png"
+    },
+    {
+      "id": 179,
+      "file_name": "periapical_0247_247.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0247_247.png"
+    },
+    {
+      "id": 180,
+      "file_name": "periapical_0032_32.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0032_32.png"
+    },
+    {
+      "id": 181,
+      "file_name": "panoramic_0606_40.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0606_40.jpg"
+    },
+    {
+      "id": 182,
+      "file_name": "bitewing_1026_X13388_7.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_1026_X13388_7.JPG"
+    },
+    {
+      "id": 183,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0554_19.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0554_19.jpg"
+    },
+    {
+      "id": 184,
+      "file_name": "periapical_0511_511.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0511_511.png"
+    },
+    {
+      "id": 185,
+      "file_name": "periapical_0528_650.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0528_650.png"
+    },
+    {
+      "id": 186,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0229_15.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0229_15.png"
+    },
+    {
+      "id": 187,
+      "file_name": "periapical_0404_404.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0404_404.png"
+    },
+    {
+      "id": 188,
+      "file_name": "periapical_0784_155.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0784_155.png"
+    },
+    {
+      "id": 189,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0447_334.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0447_334.jpg"
+    },
+    {
+      "id": 190,
+      "file_name": "bitewing_0484_X09581_16.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0484_X09581_16.JPG"
+    },
+    {
+      "id": 191,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0663_343.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0663_343.jpg"
+    },
+    {
+      "id": 192,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0586_546.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0586_546.jpg"
+    },
+    {
+      "id": 193,
+      "file_name": "panoramic_0706_32.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0706_32.jpg"
+    },
+    {
+      "id": 194,
+      "file_name": "periapical_0317_317.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0317_317.png"
+    },
+    {
+      "id": 195,
+      "file_name": "bitewing_0847_X12255_19.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0847_X12255_19.JPG"
+    },
+    {
+      "id": 196,
+      "file_name": "periapical_0232_232.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0232_232.png"
+    },
+    {
+      "id": 197,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0029_942.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0029_942.png"
+    },
+    {
+      "id": 198,
+      "file_name": "bitewing_0273_X11860_8.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0273_X11860_8.JPG"
+    },
+    {
+      "id": 199,
+      "file_name": "periapical_0417_417.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0417_417.png"
+    },
+    {
+      "id": 200,
+      "file_name": "periapical_0699_552.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0699_552.png"
+    },
+    {
+      "id": 201,
+      "file_name": "panoramic_0591_23.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0591_23.jpg"
+    },
+    {
+      "id": 202,
+      "file_name": "panoramic_0608_42.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0608_42.jpg"
+    },
+    {
+      "id": 203,
+      "file_name": "periapical_0671_671.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0671_671.png"
+    },
+    {
+      "id": 204,
+      "file_name": "periapical_0362_460.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0362_460.png"
+    },
+    {
+      "id": 205,
+      "file_name": "periapical_0209_209.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0209_209.png"
+    },
+    {
+      "id": 206,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0474_708.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0474_708.png"
+    },
+    {
+      "id": 207,
+      "file_name": "periapical_0519_519.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0519_519.png"
+    },
+    {
+      "id": 208,
+      "file_name": "panoramic_0768_105.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0768_105.jpg"
+    },
+    {
+      "id": 209,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0011_63.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0011_63.png"
+    },
+    {
+      "id": 210,
+      "file_name": "panoramic_0042_12.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0042_12.png"
+    },
+    {
+      "id": 211,
+      "file_name": "periapical_0503_503.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0503_503.png"
+    },
+    {
+      "id": 212,
+      "file_name": "periapical_0126_126.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0126_126.png"
+    },
+    {
+      "id": 213,
+      "file_name": "panoramic_0074_4.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0074_4.jpg"
+    },
+    {
+      "id": 214,
+      "file_name": "bitewing_1004_X12945_8.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_1004_X12945_8.JPG"
+    },
+    {
+      "id": 215,
+      "file_name": "bitewing_0028_X13388_10.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0028_X13388_10.JPG"
+    },
+    {
+      "id": 216,
+      "file_name": "periapical_0178_178.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0178_178.png"
+    },
+    {
+      "id": 217,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0650_550.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0650_550.jpg"
+    },
+    {
+      "id": 218,
+      "file_name": "panoramic_0739_69.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0739_69.jpg"
+    },
+    {
+      "id": 219,
+      "file_name": "periapical_0204_317.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0204_317.png"
+    },
+    {
+      "id": 220,
+      "file_name": "periapical_0515_515.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0515_515.png"
+    },
+    {
+      "id": 221,
+      "file_name": "bitewing_0879_X12483_2.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0879_X12483_2.JPG"
+    },
+    {
+      "id": 222,
+      "file_name": "periapical_0890_797.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0890_797.png"
+    },
+    {
+      "id": 223,
+      "file_name": "periapical_0249_249.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0249_249.png"
+    },
+    {
+      "id": 224,
+      "file_name": "periapical_0740_626.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0740_626.png"
+    },
+    {
+      "id": 225,
+      "file_name": "periapical_0132_763.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0132_763.png"
+    },
+    {
+      "id": 226,
+      "file_name": "panoramic_0674_119.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0674_119.jpg"
+    },
+    {
+      "id": 227,
+      "file_name": "panoramic_0015_70.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0015_70.jpg"
+    },
+    {
+      "id": 228,
+      "file_name": "periapical_0870_870.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0870_870.png"
+    },
+    {
+      "id": 229,
+      "file_name": "periapical_0639_911.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0639_911.png"
+    },
+    {
+      "id": 230,
+      "file_name": "periapical_0164_72.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0164_72.png"
+    },
+    {
+      "id": 231,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0583_786.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0583_786.png"
+    },
+    {
+      "id": 232,
+      "file_name": "bitewing_0119_X11631.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0119_X11631.JPG"
+    },
+    {
+      "id": 233,
+      "file_name": "periapical_0828_828.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0828_828.png"
+    },
+    {
+      "id": 234,
+      "file_name": "panoramic_0682_5.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0682_5.jpg"
+    },
+    {
+      "id": 235,
+      "file_name": "bitewing_1013_X13788_15.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_1013_X13788_15.JPG"
+    },
+    {
+      "id": 236,
+      "file_name": "periapical_0803_803.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0803_803.png"
+    },
+    {
+      "id": 237,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0181_364.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0181_364.jpg"
+    },
+    {
+      "id": 238,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0580_209.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0580_209.jpg"
+    },
+    {
+      "id": 239,
+      "file_name": "periapical_0835_226.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0835_226.png"
+    },
+    {
+      "id": 240,
+      "file_name": "periapical_0298_298.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0298_298.png"
+    },
+    {
+      "id": 241,
+      "file_name": "periapical_0901_901.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0901_901.png"
+    },
+    {
+      "id": 242,
+      "file_name": "periapical_0253_128.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0253_128.png"
+    },
+    {
+      "id": 243,
+      "file_name": "periapical_0795_795.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0795_795.png"
+    },
+    {
+      "id": 244,
+      "file_name": "bitewing_0340_X11603_34.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0340_X11603_34.JPG"
+    },
+    {
+      "id": 245,
+      "file_name": "periapical_0378_716.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0378_716.png"
+    },
+    {
+      "id": 246,
+      "file_name": "bitewing_0110_X13625_12.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0110_X13625_12.JPG"
+    },
+    {
+      "id": 247,
+      "file_name": "periapical_0454_454.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0454_454.png"
+    },
+    {
+      "id": 248,
+      "file_name": "bitewing_0284_X11463_37.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0284_X11463_37.JPG"
+    },
+    {
+      "id": 249,
+      "file_name": "panoramic_0776_114.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0776_114.jpg"
+    },
+    {
+      "id": 250,
+      "file_name": "panoramic_0280_39.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0280_39.png"
+    },
+    {
+      "id": 251,
+      "file_name": "periapical_0575_537.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0575_537.png"
+    },
+    {
+      "id": 252,
+      "file_name": "panoramic_0337_79.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0337_79.png"
+    },
+    {
+      "id": 253,
+      "file_name": "periapical_0152_152.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0152_152.png"
+    },
+    {
+      "id": 254,
+      "file_name": "panoramic_0190_95.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0190_95.png"
+    },
+    {
+      "id": 255,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0352_10.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0352_10.png"
+    },
+    {
+      "id": 256,
+      "file_name": "panoramic_0659_103.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0659_103.jpg"
+    },
+    {
+      "id": 257,
+      "file_name": "periapical_0749_749.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0749_749.png"
+    },
+    {
+      "id": 258,
+      "file_name": "periapical_0512_254.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0512_254.png"
+    },
+    {
+      "id": 259,
+      "file_name": "periapical_0052_52.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0052_52.png"
+    },
+    {
+      "id": 260,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0277_16.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0277_16.jpg"
+    },
+    {
+      "id": 261,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0624_197.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0624_197.jpg"
+    },
+    {
+      "id": 262,
+      "file_name": "periapical_0547_547.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0547_547.png"
+    },
+    {
+      "id": 263,
+      "file_name": "bitewing_0950_X12892_37.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0950_X12892_37.JPG"
+    },
+    {
+      "id": 264,
+      "file_name": "bitewing_0675_X12160_9.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0675_X12160_9.JPG"
+    },
+    {
+      "id": 265,
+      "file_name": "bitewing_0904_X11099_6.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0904_X11099_6.JPG"
+    },
+    {
+      "id": 266,
+      "file_name": "bitewing_0737_X11176_12.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0737_X11176_12.JPG"
+    },
+    {
+      "id": 267,
+      "file_name": "panoramic_0056_34.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0056_34.jpg"
+    },
+    {
+      "id": 268,
+      "file_name": "panoramic_0582_12.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0582_12.jpg"
+    },
+    {
+      "id": 269,
+      "file_name": "periapical_0486_486.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0486_486.png"
+    },
+    {
+      "id": 270,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0409_135.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0409_135.jpg"
+    },
+    {
+      "id": 271,
+      "file_name": "periapical_0791_791.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0791_791.png"
+    },
+    {
+      "id": 272,
+      "file_name": "periapical_0485_485.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0485_485.png"
+    },
+    {
+      "id": 273,
+      "file_name": "periapical_0577_906.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0577_906.png"
+    },
+    {
+      "id": 274,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0532_252.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0532_252.jpg"
+    },
+    {
+      "id": 275,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0173_589.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0173_589.jpg"
+    },
+    {
+      "id": 276,
+      "file_name": "periapical_0047_47.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0047_47.png"
+    },
+    {
+      "id": 277,
+      "file_name": "panoramic_0067_30.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0067_30.jpg"
+    },
+    {
+      "id": 278,
+      "file_name": "bitewing_0504_X13697_14.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0504_X13697_14.JPG"
+    },
+    {
+      "id": 279,
+      "file_name": "periapical_0213_101.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0213_101.png"
+    },
+    {
+      "id": 280,
+      "file_name": "periapical_0755_755.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0755_755.png"
+    },
+    {
+      "id": 281,
+      "file_name": "periapical_0576_576.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0576_576.png"
+    },
+    {
+      "id": 282,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0406_492.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0406_492.jpg"
+    },
+    {
+      "id": 283,
+      "file_name": "periapical_0662_662.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0662_662.png"
+    },
+    {
+      "id": 284,
+      "file_name": "bitewing_0767_X14841_32.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0767_X14841_32.JPG"
+    },
+    {
+      "id": 285,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0254_260.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0254_260.jpg"
+    },
+    {
+      "id": 286,
+      "file_name": "panoramic_0625_61.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0625_61.jpg"
+    },
+    {
+      "id": 287,
+      "file_name": "bitewing_0245_X13625_28.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0245_X13625_28.JPG"
+    },
+    {
+      "id": 288,
+      "file_name": "panoramic_0198_80.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0198_80.png"
+    },
+    {
+      "id": 289,
+      "file_name": "bitewing_0506_X13557_5.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0506_X13557_5.JPG"
+    },
+    {
+      "id": 290,
+      "file_name": "bitewing_0269_X00119_8.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0269_X00119_8.JPG"
+    },
+    {
+      "id": 291,
+      "file_name": "bitewing_0339_X11192_2.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0339_X11192_2.JPG"
+    },
+    {
+      "id": 292,
+      "file_name": "periapical_0122_574.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0122_574.png"
+    },
+    {
+      "id": 293,
+      "file_name": "periapical_0877_90.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0877_90.png"
+    },
+    {
+      "id": 294,
+      "file_name": "bitewing_0790_X13556_28.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0790_X13556_28.JPG"
+    },
+    {
+      "id": 295,
+      "file_name": "panoramic_0055_35.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0055_35.png"
+    },
+    {
+      "id": 296,
+      "file_name": "bitewing_0933_X12892_36.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0933_X12892_36.JPG"
+    },
+    {
+      "id": 297,
+      "file_name": "periapical_0109_170.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0109_170.png"
+    },
+    {
+      "id": 298,
+      "file_name": "panoramic_0678_123.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0678_123.jpg"
+    },
+    {
+      "id": 299,
+      "file_name": "periapical_0551_551.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0551_551.png"
+    },
+    {
+      "id": 300,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0267_315.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0267_315.jpg"
+    },
+    {
+      "id": 301,
+      "file_name": "panoramic_0073_42.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0073_42.jpg"
+    },
+    {
+      "id": 302,
+      "file_name": "periapical_0488_651.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0488_651.png"
+    },
+    {
+      "id": 303,
+      "file_name": "bitewing_1080_X13388_4.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_1080_X13388_4.JPG"
+    },
+    {
+      "id": 304,
+      "file_name": "periapical_0100_100.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0100_100.png"
+    },
+    {
+      "id": 305,
+      "file_name": "panoramic_0607_41.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0607_41.jpg"
+    },
+    {
+      "id": 306,
+      "file_name": "periapical_0613_613.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0613_613.png"
+    },
+    {
+      "id": 307,
+      "file_name": "panoramic_0136_8.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0136_8.png"
+    },
+    {
+      "id": 308,
+      "file_name": "panoramic_0148_15.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0148_15.png"
+    },
+    {
+      "id": 309,
+      "file_name": "periapical_0912_52.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0912_52.png"
+    },
+    {
+      "id": 310,
+      "file_name": "bitewing_0147_X03619_9.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0147_X03619_9.JPG"
+    },
+    {
+      "id": 311,
+      "file_name": "periapical_0698_234.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0698_234.png"
+    },
+    {
+      "id": 312,
+      "file_name": "periapical_0636_534.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0636_534.png"
+    },
+    {
+      "id": 313,
+      "file_name": "panoramic_0676_121.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0676_121.jpg"
+    },
+    {
+      "id": 314,
+      "file_name": "periapical_0687_687.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0687_687.png"
+    },
+    {
+      "id": 315,
+      "file_name": "bitewing_1061_X08529_9.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_1061_X08529_9.JPG"
+    },
+    {
+      "id": 316,
+      "file_name": "periapical_0134_70.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0134_70.png"
+    },
+    {
+      "id": 317,
+      "file_name": "bitewing_0380_X11176_37.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0380_X11176_37.JPG"
+    },
+    {
+      "id": 318,
+      "file_name": "panoramic_0725_53.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0725_53.jpg"
+    },
+    {
+      "id": 319,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0657_790.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0657_790.png"
+    },
+    {
+      "id": 320,
+      "file_name": "panoramic_0233_88.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0233_88.png"
+    },
+    {
+      "id": 321,
+      "file_name": "bitewing_0894_X07886_1.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0894_X07886_1.JPG"
+    },
+    {
+      "id": 322,
+      "file_name": "periapical_0706_744.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0706_744.png"
+    },
+    {
+      "id": 323,
+      "file_name": "periapical_0884_807.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0884_807.png"
+    },
+    {
+      "id": 324,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0539_25.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0539_25.png"
+    },
+    {
+      "id": 325,
+      "file_name": "periapical_0655_656.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0655_656.png"
+    },
+    {
+      "id": 326,
+      "file_name": "periapical_0565_244.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0565_244.png"
+    },
+    {
+      "id": 327,
+      "file_name": "bitewing_0537_X12160_6.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0537_X12160_6.JPG"
+    },
+    {
+      "id": 328,
+      "file_name": "periapical_0753_753.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0753_753.png"
+    },
+    {
+      "id": 329,
+      "file_name": "periapical_0510_526.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0510_526.png"
+    },
+    {
+      "id": 330,
+      "file_name": "bitewing_0928_X12116_10.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0928_X12116_10.JPG"
+    },
+    {
+      "id": 331,
+      "file_name": "periapical_0340_728.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0340_728.png"
+    },
+    {
+      "id": 332,
+      "file_name": "periapical_0469_109.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0469_109.png"
+    },
+    {
+      "id": 333,
+      "file_name": "panoramic_0134_58.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0134_58.png"
+    },
+    {
+      "id": 334,
+      "file_name": "panoramic_0103_51.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0103_51.png"
+    },
+    {
+      "id": 335,
+      "file_name": "periapical_0053_53.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0053_53.png"
+    },
+    {
+      "id": 336,
+      "file_name": "periapical_0826_541.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0826_541.png"
+    },
+    {
+      "id": 337,
+      "file_name": "periapical_0746_55.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0746_55.png"
+    },
+    {
+      "id": 338,
+      "file_name": "periapical_0061_61.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0061_61.png"
+    },
+    {
+      "id": 339,
+      "file_name": "bitewing_0662_X14841_30-Copy.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0662_X14841_30-Copy.JPG"
+    },
+    {
+      "id": 340,
+      "file_name": "periapical_0336_502.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0336_502.png"
+    },
+    {
+      "id": 341,
+      "file_name": "periapical_0239_239.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0239_239.png"
+    },
+    {
+      "id": 342,
+      "file_name": "periapical_0421_487.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0421_487.png"
+    },
+    {
+      "id": 343,
+      "file_name": "bitewing_0125_X14160_7.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0125_X14160_7.JPG"
+    },
+    {
+      "id": 344,
+      "file_name": "panoramic_0108_90.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0108_90.png"
+    },
+    {
+      "id": 345,
+      "file_name": "bitewing_0204_X12255_17.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0204_X12255_17.JPG"
+    },
+    {
+      "id": 346,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0575_427.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0575_427.jpg"
+    },
+    {
+      "id": 347,
+      "file_name": "periapical_0690_547.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0690_547.png"
+    },
+    {
+      "id": 348,
+      "file_name": "periapical_0293_293.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0293_293.png"
+    },
+    {
+      "id": 349,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0291_715.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0291_715.png"
+    },
+    {
+      "id": 350,
+      "file_name": "periapical_0658_658.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0658_658.png"
+    },
+    {
+      "id": 351,
+      "file_name": "periapical_0796_796.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0796_796.png"
+    },
+    {
+      "id": 352,
+      "file_name": "periapical_0714_714.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0714_714.png"
+    },
+    {
+      "id": 353,
+      "file_name": "periapical_0618_30.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0618_30.png"
+    },
+    {
+      "id": 354,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0510_482.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0510_482.jpg"
+    },
+    {
+      "id": 355,
+      "file_name": "periapical_0491_22.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0491_22.png"
+    },
+    {
+      "id": 356,
+      "file_name": "periapical_0511_240.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0511_240.png"
+    },
+    {
+      "id": 357,
+      "file_name": "periapical_0297_297.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0297_297.png"
+    },
+    {
+      "id": 358,
+      "file_name": "bitewing_0827_X07886.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0827_X07886.JPG"
+    },
+    {
+      "id": 359,
+      "file_name": "periapical_0263_314.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0263_314.png"
+    },
+    {
+      "id": 360,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0246_17.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0246_17.png"
+    },
+    {
+      "id": 361,
+      "file_name": "periapical_0383_383.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0383_383.png"
+    },
+    {
+      "id": 362,
+      "file_name": "periapical_0403_887.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0403_887.png"
+    },
+    {
+      "id": 363,
+      "file_name": "bitewing_0279_X07848.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0279_X07848.JPG"
+    },
+    {
+      "id": 364,
+      "file_name": "panoramic_0746_77.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0746_77.jpg"
+    },
+    {
+      "id": 365,
+      "file_name": "bitewing_0969_X09582_28.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0969_X09582_28.JPG"
+    },
+    {
+      "id": 366,
+      "file_name": "periapical_0321_891.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0321_891.png"
+    },
+    {
+      "id": 367,
+      "file_name": "bitewing_0278_X09582_27.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0278_X09582_27.JPG"
+    },
+    {
+      "id": 368,
+      "file_name": "panoramic_0214_78.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0214_78.png"
+    },
+    {
+      "id": 369,
+      "file_name": "periapical_0372_39.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0372_39.png"
+    },
+    {
+      "id": 370,
+      "file_name": "panoramic_0077_95.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0077_95.jpg"
+    },
+    {
+      "id": 371,
+      "file_name": "panoramic_0728_56.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0728_56.jpg"
+    },
+    {
+      "id": 372,
+      "file_name": "periapical_0062_62.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0062_62.png"
+    },
+    {
+      "id": 373,
+      "file_name": "periapical_0207_303.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0207_303.png"
+    },
+    {
+      "id": 374,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0618_57.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0618_57.jpg"
+    },
+    {
+      "id": 375,
+      "file_name": "periapical_0394_918.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0394_918.png"
+    },
+    {
+      "id": 376,
+      "file_name": "bitewing_0613_X13556_10.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0613_X13556_10.JPG"
+    },
+    {
+      "id": 377,
+      "file_name": "bitewing_1053_X03619_7.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_1053_X03619_7.JPG"
+    },
+    {
+      "id": 378,
+      "file_name": "periapical_0869_869.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0869_869.png"
+    },
+    {
+      "id": 379,
+      "file_name": "periapical_0910_910.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0910_910.png"
+    },
+    {
+      "id": 380,
+      "file_name": "bitewing_0317_X13788_44.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0317_X13788_44.JPG"
+    },
+    {
+      "id": 381,
+      "file_name": "panoramic_0030_29.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0030_29.jpg"
+    },
+    {
+      "id": 382,
+      "file_name": "periapical_0760_760.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0760_760.png"
+    },
+    {
+      "id": 383,
+      "file_name": "periapical_0622_737.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0622_737.png"
+    },
+    {
+      "id": 384,
+      "file_name": "panoramic_0205_69.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0205_69.png"
+    },
+    {
+      "id": 385,
+      "file_name": "panoramic_0083_55.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0083_55.jpg"
+    },
+    {
+      "id": 386,
+      "file_name": "periapical_0376_376.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0376_376.png"
+    },
+    {
+      "id": 387,
+      "file_name": "bitewing_0413_X11463_35.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0413_X11463_35.JPG"
+    },
+    {
+      "id": 388,
+      "file_name": "bitewing_0347_X11463_34.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0347_X11463_34.JPG"
+    },
+    {
+      "id": 389,
+      "file_name": "bitewing_0781_X13866_12.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0781_X13866_12.JPG"
+    },
+    {
+      "id": 390,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0394_531.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0394_531.jpg"
+    },
+    {
+      "id": 391,
+      "file_name": "periapical_0064_834.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0064_834.png"
+    },
+    {
+      "id": 392,
+      "file_name": "periapical_0150_401.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0150_401.png"
+    },
+    {
+      "id": 393,
+      "file_name": "periapical_0404_139.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0404_139.png"
+    },
+    {
+      "id": 394,
+      "file_name": "periapical_0698_698.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0698_698.png"
+    },
+    {
+      "id": 395,
+      "file_name": "periapical_0327_729.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0327_729.png"
+    },
+    {
+      "id": 396,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0462_495.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0462_495.jpg"
+    },
+    {
+      "id": 397,
+      "file_name": "periapical_0390_390.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0390_390.png"
+    },
+    {
+      "id": 398,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0334_702.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0334_702.png"
+    },
+    {
+      "id": 399,
+      "file_name": "panoramic_0199_94.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0199_94.png"
+    },
+    {
+      "id": 400,
+      "file_name": "periapical_0042_177.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0042_177.png"
+    },
+    {
+      "id": 401,
+      "file_name": "bitewing_1085_X13388.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_1085_X13388.JPG"
+    },
+    {
+      "id": 402,
+      "file_name": "periapical_0038_38.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0038_38.png"
+    },
+    {
+      "id": 403,
+      "file_name": "panoramic_0291_109.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0291_109.png"
+    },
+    {
+      "id": 404,
+      "file_name": "periapical_0627_253.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0627_253.png"
+    },
+    {
+      "id": 405,
+      "file_name": "periapical_0770_784.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0770_784.png"
+    },
+    {
+      "id": 406,
+      "file_name": "periapical_0673_157.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0673_157.png"
+    },
+    {
+      "id": 407,
+      "file_name": "periapical_0428_35.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0428_35.png"
+    },
+    {
+      "id": 408,
+      "file_name": "periapical_0033_33.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0033_33.png"
+    },
+    {
+      "id": 409,
+      "file_name": "periapical_0588_669.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0588_669.png"
+    },
+    {
+      "id": 410,
+      "file_name": "periapical_0533_485.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0533_485.png"
+    },
+    {
+      "id": 411,
+      "file_name": "bitewing_0313_X11176_35.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0313_X11176_35.JPG"
+    },
+    {
+      "id": 412,
+      "file_name": "bitewing_0617_X13418_6.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0617_X13418_6.JPG"
+    },
+    {
+      "id": 413,
+      "file_name": "periapical_0153_403.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0153_403.png"
+    },
+    {
+      "id": 414,
+      "file_name": "panoramic_0265_100.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0265_100.png"
+    },
+    {
+      "id": 415,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0548_483.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0548_483.jpg"
+    },
+    {
+      "id": 416,
+      "file_name": "periapical_0593_641.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0593_641.png"
+    },
+    {
+      "id": 417,
+      "file_name": "bitewing_0986_X14066_16-Copy.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0986_X14066_16-Copy.JPG"
+    },
+    {
+      "id": 418,
+      "file_name": "periapical_0424_134.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0424_134.png"
+    },
+    {
+      "id": 419,
+      "file_name": "periapical_0502_255.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0502_255.png"
+    },
+    {
+      "id": 420,
+      "file_name": "periapical_0702_702.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0702_702.png"
+    },
+    {
+      "id": 421,
+      "file_name": "periapical_0112_819.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0112_819.png"
+    },
+    {
+      "id": 422,
+      "file_name": "periapical_0879_879.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0879_879.png"
+    },
+    {
+      "id": 423,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0028_229.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0028_229.jpg"
+    },
+    {
+      "id": 424,
+      "file_name": "bitewing_0760_X09581_24-Copy.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0760_X09581_24-Copy.JPG"
+    },
+    {
+      "id": 425,
+      "file_name": "panoramic_0152_116.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0152_116.png"
+    },
+    {
+      "id": 426,
+      "file_name": "panoramic_0273_113.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0273_113.png"
+    },
+    {
+      "id": 427,
+      "file_name": "bitewing_0711_X13761_1.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0711_X13761_1.JPG"
+    },
+    {
+      "id": 428,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0343_1042.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0343_1042.png"
+    },
+    {
+      "id": 429,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0337_514.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0337_514.jpg"
+    },
+    {
+      "id": 430,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0534_939.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0534_939.png"
+    },
+    {
+      "id": 431,
+      "file_name": "panoramic_0162_110.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0162_110.png"
+    },
+    {
+      "id": 432,
+      "file_name": "periapical_0028_28.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0028_28.png"
+    },
+    {
+      "id": 433,
+      "file_name": "periapical_0906_782.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0906_782.png"
+    },
+    {
+      "id": 434,
+      "file_name": "periapical_0668_396.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0668_396.png"
+    },
+    {
+      "id": 435,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0425_335.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0425_335.jpg"
+    },
+    {
+      "id": 436,
+      "file_name": "periapical_0271_670.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0271_670.png"
+    },
+    {
+      "id": 437,
+      "file_name": "panoramic_0668_113.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0668_113.jpg"
+    },
+    {
+      "id": 438,
+      "file_name": "periapical_0818_810.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0818_810.png"
+    },
+    {
+      "id": 439,
+      "file_name": "bitewing_0211_X11118_8.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0211_X11118_8.JPG"
+    },
+    {
+      "id": 440,
+      "file_name": "panoramic_0041_13.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0041_13.jpg"
+    },
+    {
+      "id": 441,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0374_875.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0374_875.png"
+    },
+    {
+      "id": 442,
+      "file_name": "bitewing_0856_X13761_4-Copy.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0856_X13761_4-Copy.JPG"
+    },
+    {
+      "id": 443,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0507_125.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0507_125.jpg"
+    },
+    {
+      "id": 444,
+      "file_name": "periapical_0643_643.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0643_643.png"
+    },
+    {
+      "id": 445,
+      "file_name": "periapical_0577_577.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0577_577.png"
+    },
+    {
+      "id": 446,
+      "file_name": "bitewing_0196_X07848_1.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0196_X07848_1.JPG"
+    },
+    {
+      "id": 447,
+      "file_name": "periapical_0627_627.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0627_627.png"
+    },
+    {
+      "id": 448,
+      "file_name": "periapical_0050_50.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0050_50.png"
+    },
+    {
+      "id": 449,
+      "file_name": "periapical_0787_787.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0787_787.png"
+    },
+    {
+      "id": 450,
+      "file_name": "bitewing_0905_X09197_3.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0905_X09197_3.JPG"
+    },
+    {
+      "id": 451,
+      "file_name": "panoramic_0661_105.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0661_105.jpg"
+    },
+    {
+      "id": 452,
+      "file_name": "periapical_0113_113.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0113_113.png"
+    },
+    {
+      "id": 453,
+      "file_name": "periapical_0286_286.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0286_286.png"
+    },
+    {
+      "id": 454,
+      "file_name": "bitewing_1058_X11721_12.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_1058_X11721_12.JPG"
+    },
+    {
+      "id": 455,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0437_532.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0437_532.jpg"
+    },
+    {
+      "id": 456,
+      "file_name": "periapical_0138_138.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0138_138.png"
+    },
+    {
+      "id": 457,
+      "file_name": "bitewing_1034_X00119_2.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_1034_X00119_2.JPG"
+    },
+    {
+      "id": 458,
+      "file_name": "periapical_0424_424.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0424_424.png"
+    },
+    {
+      "id": 459,
+      "file_name": "periapical_0557_557.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0557_557.png"
+    },
+    {
+      "id": 460,
+      "file_name": "periapical_0575_575.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0575_575.png"
+    },
+    {
+      "id": 461,
+      "file_name": "periapical_0585_585.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0585_585.png"
+    },
+    {
+      "id": 462,
+      "file_name": "periapical_0287_287.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0287_287.png"
+    },
+    {
+      "id": 463,
+      "file_name": "periapical_0255_255.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0255_255.png"
+    },
+    {
+      "id": 464,
+      "file_name": "bitewing_0480_X13278_5.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0480_X13278_5.JPG"
+    },
+    {
+      "id": 465,
+      "file_name": "periapical_0326_326.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0326_326.png"
+    },
+    {
+      "id": 466,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0573_369.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0573_369.jpg"
+    },
+    {
+      "id": 467,
+      "file_name": "bitewing_1003_X12483_5.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_1003_X12483_5.JPG"
+    },
+    {
+      "id": 468,
+      "file_name": "panoramic_0761_96.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0761_96.jpg"
+    },
+    {
+      "id": 469,
+      "file_name": "periapical_0039_39.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0039_39.png"
+    },
+    {
+      "id": 470,
+      "file_name": "periapical_0522_522.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0522_522.png"
+    },
+    {
+      "id": 471,
+      "file_name": "panoramic_0034_103.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0034_103.jpg"
+    },
+    {
+      "id": 472,
+      "file_name": "panoramic_0714_41.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0714_41.jpg"
+    },
+    {
+      "id": 473,
+      "file_name": "periapical_0442_530.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0442_530.png"
+    },
+    {
+      "id": 474,
+      "file_name": "periapical_0306_306.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0306_306.png"
+    },
+    {
+      "id": 475,
+      "file_name": "panoramic_0577_7.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0577_7.jpg"
+    },
+    {
+      "id": 476,
+      "file_name": "periapical_0427_427.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0427_427.png"
+    },
+    {
+      "id": 477,
+      "file_name": "periapical_0871_871.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0871_871.png"
+    },
+    {
+      "id": 478,
+      "file_name": "bitewing_0291_X07857_16.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0291_X07857_16.JPG"
+    },
+    {
+      "id": 479,
+      "file_name": "periapical_0886_886.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0886_886.png"
+    },
+    {
+      "id": 480,
+      "file_name": "bitewing_1055_X11412_5.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_1055_X11412_5.JPG"
+    },
+    {
+      "id": 481,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0210_277.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0210_277.jpg"
+    },
+    {
+      "id": 482,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0312_112.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0312_112.png"
+    },
+    {
+      "id": 483,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0544_332.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0544_332.jpg"
+    },
+    {
+      "id": 484,
+      "file_name": "bitewing_0115_X12535_2.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0115_X12535_2.JPG"
+    },
+    {
+      "id": 485,
+      "file_name": "periapical_0164_164.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0164_164.png"
+    },
+    {
+      "id": 486,
+      "file_name": "periapical_0732_732.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0732_732.png"
+    },
+    {
+      "id": 487,
+      "file_name": "periapical_0727_354.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0727_354.png"
+    },
+    {
+      "id": 488,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0320_11.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0320_11.jpg"
+    },
+    {
+      "id": 489,
+      "file_name": "panoramic_0047_105.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0047_105.jpg"
+    },
+    {
+      "id": 490,
+      "file_name": "panoramic_0696_21.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0696_21.jpg"
+    },
+    {
+      "id": 491,
+      "file_name": "periapical_0144_144.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0144_144.png"
+    },
+    {
+      "id": 492,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0456_37.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0456_37.jpg"
+    },
+    {
+      "id": 493,
+      "file_name": "periapical_0355_310.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0355_310.png"
+    },
+    {
+      "id": 494,
+      "file_name": "panoramic_0062_37.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0062_37.jpg"
+    },
+    {
+      "id": 495,
+      "file_name": "periapical_0529_529.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0529_529.png"
+    },
+    {
+      "id": 496,
+      "file_name": "panoramic_0699_24.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0699_24.jpg"
+    },
+    {
+      "id": 497,
+      "file_name": "bitewing_1038_X12525_13.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_1038_X12525_13.JPG"
+    },
+    {
+      "id": 498,
+      "file_name": "periapical_0307_307.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0307_307.png"
+    },
+    {
+      "id": 499,
+      "file_name": "panoramic_0142_98.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0142_98.png"
+    },
+    {
+      "id": 500,
+      "file_name": "periapical_0272_843.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0272_843.png"
+    },
+    {
+      "id": 501,
+      "file_name": "panoramic_0022_66.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0022_66.png"
+    },
+    {
+      "id": 502,
+      "file_name": "panoramic_0742_72.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0742_72.jpg"
+    },
+    {
+      "id": 503,
+      "file_name": "periapical_0307_467.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0307_467.png"
+    },
+    {
+      "id": 504,
+      "file_name": "bitewing_0867_X13863_9.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0867_X13863_9.JPG"
+    },
+    {
+      "id": 505,
+      "file_name": "bitewing_0512_X13794_51.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0512_X13794_51.JPG"
+    },
+    {
+      "id": 506,
+      "file_name": "periapical_0872_634.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0872_634.png"
+    },
+    {
+      "id": 507,
+      "file_name": "bitewing_0290_X09582_40.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0290_X09582_40.JPG"
+    },
+    {
+      "id": 508,
+      "file_name": "panoramic_0579_9.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0579_9.jpg"
+    },
+    {
+      "id": 509,
+      "file_name": "periapical_0923_386.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0923_386.png"
+    },
+    {
+      "id": 510,
+      "file_name": "periapical_0780_780.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0780_780.png"
+    },
+    {
+      "id": 511,
+      "file_name": "periapical_0092_92.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0092_92.png"
+    },
+    {
+      "id": 512,
+      "file_name": "periapical_0871_387.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0871_387.png"
+    },
+    {
+      "id": 513,
+      "file_name": "periapical_0767_551.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0767_551.png"
+    },
+    {
+      "id": 514,
+      "file_name": "periapical_0609_609.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0609_609.png"
+    },
+    {
+      "id": 515,
+      "file_name": "bitewing_0096_X08529_6.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0096_X08529_6.JPG"
+    },
+    {
+      "id": 516,
+      "file_name": "periapical_0472_445.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0472_445.png"
+    },
+    {
+      "id": 517,
+      "file_name": "panoramic_0585_16.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0585_16.jpg"
+    },
+    {
+      "id": 518,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0300_516.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0300_516.jpg"
+    },
+    {
+      "id": 519,
+      "file_name": "periapical_0148_148.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0148_148.png"
+    },
+    {
+      "id": 520,
+      "file_name": "bitewing_1072_X12379_8.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_1072_X12379_8.JPG"
+    },
+    {
+      "id": 521,
+      "file_name": "panoramic_0189_19.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0189_19.png"
+    },
+    {
+      "id": 522,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0038_822.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0038_822.png"
+    },
+    {
+      "id": 523,
+      "file_name": "periapical_0631_631.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0631_631.png"
+    },
+    {
+      "id": 524,
+      "file_name": "periapical_0763_763.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0763_763.png"
+    },
+    {
+      "id": 525,
+      "file_name": "bitewing_0344_X14805_12-Copy.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0344_X14805_12-Copy.JPG"
+    },
+    {
+      "id": 526,
+      "file_name": "panoramic_0713_40.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0713_40.jpg"
+    },
+    {
+      "id": 527,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0111_560.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0111_560.jpg"
+    },
+    {
+      "id": 528,
+      "file_name": "bitewing_1046_X25772_4.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_1046_X25772_4.JPG"
+    },
+    {
+      "id": 529,
+      "file_name": "bitewing_0345_X13278_20.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0345_X13278_20.JPG"
+    },
+    {
+      "id": 530,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0638_418.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0638_418.jpg"
+    },
+    {
+      "id": 531,
+      "file_name": "panoramic_0777_115.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0777_115.jpg"
+    },
+    {
+      "id": 532,
+      "file_name": "panoramic_0595_28.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0595_28.jpg"
+    },
+    {
+      "id": 533,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0496_331.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0496_331.jpg"
+    },
+    {
+      "id": 534,
+      "file_name": "periapical_0487_137.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0487_137.png"
+    },
+    {
+      "id": 535,
+      "file_name": "periapical_0465_465.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0465_465.png"
+    },
+    {
+      "id": 536,
+      "file_name": "periapical_0658_468.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0658_468.png"
+    },
+    {
+      "id": 537,
+      "file_name": "periapical_0907_907.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0907_907.png"
+    },
+    {
+      "id": 538,
+      "file_name": "periapical_0592_592.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0592_592.png"
+    },
+    {
+      "id": 539,
+      "file_name": "periapical_0430_21.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0430_21.png"
+    },
+    {
+      "id": 540,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0465_456.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0465_456.jpg"
+    },
+    {
+      "id": 541,
+      "file_name": "periapical_0180_180.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0180_180.png"
+    },
+    {
+      "id": 542,
+      "file_name": "periapical_0141_171.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0141_171.png"
+    },
+    {
+      "id": 543,
+      "file_name": "periapical_0356_356.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0356_356.png"
+    },
+    {
+      "id": 544,
+      "file_name": "periapical_0723_397.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0723_397.png"
+    },
+    {
+      "id": 545,
+      "file_name": "bitewing_0586_X12704_15.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0586_X12704_15.JPG"
+    },
+    {
+      "id": 546,
+      "file_name": "periapical_0167_167.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0167_167.png"
+    },
+    {
+      "id": 547,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0202_28.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0202_28.png"
+    },
+    {
+      "id": 548,
+      "file_name": "bitewing_0774_X12401_3.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0774_X12401_3.JPG"
+    },
+    {
+      "id": 549,
+      "file_name": "panoramic_0779_117.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0779_117.jpg"
+    },
+    {
+      "id": 550,
+      "file_name": "periapical_0375_375.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0375_375.png"
+    },
+    {
+      "id": 551,
+      "file_name": "periapical_0496_496.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0496_496.png"
+    },
+    {
+      "id": 552,
+      "file_name": "bitewing_0004_X11603_42.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0004_X11603_42.JPG"
+    },
+    {
+      "id": 553,
+      "file_name": "bitewing_0032_X12892_14.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0032_X12892_14.JPG"
+    },
+    {
+      "id": 554,
+      "file_name": "periapical_0354_354.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0354_354.png"
+    },
+    {
+      "id": 555,
+      "file_name": "bitewing_0079_X08529_17.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0079_X08529_17.JPG"
+    },
+    {
+      "id": 556,
+      "file_name": "periapical_0691_221.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0691_221.png"
+    },
+    {
+      "id": 557,
+      "file_name": "panoramic_0663_108.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0663_108.jpg"
+    },
+    {
+      "id": 558,
+      "file_name": "bitewing_1092_X13721_4.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_1092_X13721_4.JPG"
+    },
+    {
+      "id": 559,
+      "file_name": "bitewing_0707_X11463_14.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0707_X11463_14.JPG"
+    },
+    {
+      "id": 560,
+      "file_name": "bitewing_0766_X11099.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0766_X11099.JPG"
+    },
+    {
+      "id": 561,
+      "file_name": "bitewing_0805_X14330_2.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0805_X14330_2.JPG"
+    },
+    {
+      "id": 562,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0178_9.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0178_9.png"
+    },
+    {
+      "id": 563,
+      "file_name": "periapical_0669_382.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0669_382.png"
+    },
+    {
+      "id": 564,
+      "file_name": "bitewing_0730_X13418_1.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0730_X13418_1.JPG"
+    },
+    {
+      "id": 565,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0372_493.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0372_493.jpg"
+    },
+    {
+      "id": 566,
+      "file_name": "periapical_0508_508.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0508_508.png"
+    },
+    {
+      "id": 567,
+      "file_name": "periapical_0539_539.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0539_539.png"
+    },
+    {
+      "id": 568,
+      "file_name": "bitewing_0788_X13418_2.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0788_X13418_2.JPG"
+    },
+    {
+      "id": 569,
+      "file_name": "bitewing_0164_X10132_7.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0164_X10132_7.JPG"
+    },
+    {
+      "id": 570,
+      "file_name": "periapical_0156_156.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0156_156.png"
+    },
+    {
+      "id": 571,
+      "file_name": "periapical_0453_453.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0453_453.png"
+    },
+    {
+      "id": 572,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0234_100.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0234_100.jpg"
+    },
+    {
+      "id": 573,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0104_59.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0104_59.png"
+    },
+    {
+      "id": 574,
+      "file_name": "periapical_0081_81.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0081_81.png"
+    },
+    {
+      "id": 575,
+      "file_name": "bitewing_0213_X09582_24.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0213_X09582_24.JPG"
+    },
+    {
+      "id": 576,
+      "file_name": "periapical_0589_589.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0589_589.png"
+    },
+    {
+      "id": 577,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0509_119.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0509_119.jpg"
+    },
+    {
+      "id": 578,
+      "file_name": "panoramic_0131_71.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0131_71.png"
+    },
+    {
+      "id": 579,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0645_587.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0645_587.jpg"
+    },
+    {
+      "id": 580,
+      "file_name": "bitewing_0068_X11088_7.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0068_X11088_7.JPG"
+    },
+    {
+      "id": 581,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0592_963.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0592_963.png"
+    },
+    {
+      "id": 582,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0310_476.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0310_476.jpg"
+    },
+    {
+      "id": 583,
+      "file_name": "periapical_0869_378.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0869_378.png"
+    },
+    {
+      "id": 584,
+      "file_name": "bitewing_0902_X13556_26-Copy.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0902_X13556_26-Copy.JPG"
+    },
+    {
+      "id": 585,
+      "file_name": "periapical_0297_671.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0297_671.png"
+    },
+    {
+      "id": 586,
+      "file_name": "bitewing_0222_X14841_31-Copy.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0222_X14841_31-Copy.JPG"
+    },
+    {
+      "id": 587,
+      "file_name": "bitewing_0354_X13021_1.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0354_X13021_1.JPG"
+    },
+    {
+      "id": 588,
+      "file_name": "periapical_0508_283.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0508_283.png"
+    },
+    {
+      "id": 589,
+      "file_name": "panoramic_0185_30.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0185_30.png"
+    },
+    {
+      "id": 590,
+      "file_name": "periapical_0010_10.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0010_10.png"
+    },
+    {
+      "id": 591,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0007_88.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0007_88.jpg"
+    },
+    {
+      "id": 592,
+      "file_name": "periapical_0461_461.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0461_461.png"
+    },
+    {
+      "id": 593,
+      "file_name": "bitewing_0795_X13556_15.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0795_X13556_15.JPG"
+    },
+    {
+      "id": 594,
+      "file_name": "periapical_0654_654.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0654_654.png"
+    },
+    {
+      "id": 595,
+      "file_name": "periapical_0929_437.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0929_437.png"
+    },
+    {
+      "id": 596,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0527_509.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0527_509.jpg"
+    },
+    {
+      "id": 597,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0360_139.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0360_139.jpg"
+    },
+    {
+      "id": 598,
+      "file_name": "bitewing_0614_X11860_20.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0614_X11860_20.JPG"
+    },
+    {
+      "id": 599,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0642_424.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0642_424.jpg"
+    },
+    {
+      "id": 600,
+      "file_name": "periapical_0113_59.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0113_59.png"
+    },
+    {
+      "id": 601,
+      "file_name": "panoramic_0088_7.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0088_7.png"
+    },
+    {
+      "id": 602,
+      "file_name": "bitewing_1009_X13788_28-Copy.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_1009_X13788_28-Copy.JPG"
+    },
+    {
+      "id": 603,
+      "file_name": "bitewing_0487_X13794_53.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0487_X13794_53.JPG"
+    },
+    {
+      "id": 604,
+      "file_name": "bitewing_0118_X13714_4-Copy.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0118_X13714_4-Copy.JPG"
+    },
+    {
+      "id": 605,
+      "file_name": "bitewing_0440_X11463_5.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0440_X11463_5.JPG"
+    },
+    {
+      "id": 606,
+      "file_name": "panoramic_0173_20.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0173_20.png"
+    },
+    {
+      "id": 607,
+      "file_name": "bitewing_0414_X11035_3.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0414_X11035_3.JPG"
+    },
+    {
+      "id": 608,
+      "file_name": "bitewing_1076_X11118_26.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_1076_X11118_26.JPG"
+    },
+    {
+      "id": 609,
+      "file_name": "bitewing_0815_X13863_23.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0815_X13863_23.JPG"
+    },
+    {
+      "id": 610,
+      "file_name": "periapical_0310_305.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0310_305.png"
+    },
+    {
+      "id": 611,
+      "file_name": "panoramic_0045_110.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0045_110.jpg"
+    },
+    {
+      "id": 612,
+      "file_name": "panoramic_0310_42.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0310_42.png"
+    },
+    {
+      "id": 613,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0596_778.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0596_778.png"
+    },
+    {
+      "id": 614,
+      "file_name": "panoramic_0284_105.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0284_105.png"
+    },
+    {
+      "id": 615,
+      "file_name": "panoramic_0215_44.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0215_44.png"
+    },
+    {
+      "id": 616,
+      "file_name": "periapical_0293_16.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0293_16.png"
+    },
+    {
+      "id": 617,
+      "file_name": "bitewing_0816_X13714_5-Copy.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0816_X13714_5-Copy.JPG"
+    },
+    {
+      "id": 618,
+      "file_name": "periapical_0626_247.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0626_247.png"
+    },
+    {
+      "id": 619,
+      "file_name": "periapical_0337_337.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0337_337.png"
+    },
+    {
+      "id": 620,
+      "file_name": "panoramic_0261_14.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0261_14.png"
+    },
+    {
+      "id": 621,
+      "file_name": "periapical_0076_202.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0076_202.png"
+    },
+    {
+      "id": 622,
+      "file_name": "bitewing_0505_X11463_32.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0505_X11463_32.JPG"
+    },
+    {
+      "id": 623,
+      "file_name": "bitewing_0995_X11721_11.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0995_X11721_11.JPG"
+    },
+    {
+      "id": 624,
+      "file_name": "bitewing_0153_X08536_4.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0153_X08536_4.JPG"
+    },
+    {
+      "id": 625,
+      "file_name": "periapical_0142_142.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0142_142.png"
+    },
+    {
+      "id": 626,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0616_354.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0616_354.png"
+    },
+    {
+      "id": 627,
+      "file_name": "panoramic_0103_1.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0103_1.jpg"
+    },
+    {
+      "id": 628,
+      "file_name": "panoramic_0707_34.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0707_34.jpg"
+    },
+    {
+      "id": 629,
+      "file_name": "periapical_0855_855.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0855_855.png"
+    },
+    {
+      "id": 630,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0572_42.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0572_42.png"
+    },
+    {
+      "id": 631,
+      "file_name": "periapical_0672_672.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0672_672.png"
+    },
+    {
+      "id": 632,
+      "file_name": "panoramic_0218_3.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0218_3.png"
+    },
+    {
+      "id": 633,
+      "file_name": "periapical_0736_736.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0736_736.png"
+    },
+    {
+      "id": 634,
+      "file_name": "panoramic_0271_103.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0271_103.png"
+    },
+    {
+      "id": 635,
+      "file_name": "periapical_0592_899.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0592_899.png"
+    },
+    {
+      "id": 636,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0072_570.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0072_570.jpg"
+    },
+    {
+      "id": 637,
+      "file_name": "bitewing_0086_X13161_3.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0086_X13161_3.JPG"
+    },
+    {
+      "id": 638,
+      "file_name": "panoramic_0633_70.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0633_70.jpg"
+    },
+    {
+      "id": 639,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0263_249.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0263_249.jpg"
+    },
+    {
+      "id": 640,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0261_507.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0261_507.jpg"
+    },
+    {
+      "id": 641,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0625_183.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0625_183.jpg"
+    },
+    {
+      "id": 642,
+      "file_name": "periapical_0523_523.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0523_523.png"
+    },
+    {
+      "id": 643,
+      "file_name": "periapical_0408_111.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0408_111.png"
+    },
+    {
+      "id": 644,
+      "file_name": "panoramic_0326_97.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0326_97.png"
+    },
+    {
+      "id": 645,
+      "file_name": "periapical_0693_693.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0693_693.png"
+    },
+    {
+      "id": 646,
+      "file_name": "bitewing_0052_X10010_11.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0052_X10010_11.JPG"
+    },
+    {
+      "id": 647,
+      "file_name": "bitewing_1090_X12255_21.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_1090_X12255_21.JPG"
+    },
+    {
+      "id": 648,
+      "file_name": "periapical_0820_820.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0820_820.png"
+    },
+    {
+      "id": 649,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0231_100.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0231_100.png"
+    },
+    {
+      "id": 650,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0513_441.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0513_441.jpg"
+    },
+    {
+      "id": 651,
+      "file_name": "periapical_0205_205.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0205_205.png"
+    },
+    {
+      "id": 652,
+      "file_name": "panoramic_0686_9.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0686_9.jpg"
+    },
+    {
+      "id": 653,
+      "file_name": "bitewing_0733_X12249_1.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0733_X12249_1.JPG"
+    },
+    {
+      "id": 654,
+      "file_name": "periapical_0429_429.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0429_429.png"
+    },
+    {
+      "id": 655,
+      "file_name": "periapical_0792_792.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0792_792.png"
+    },
+    {
+      "id": 656,
+      "file_name": "periapical_0047_407.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0047_407.png"
+    },
+    {
+      "id": 657,
+      "file_name": "panoramic_0002_77.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0002_77.jpg"
+    },
+    {
+      "id": 658,
+      "file_name": "periapical_0602_333.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0602_333.png"
+    },
+    {
+      "id": 659,
+      "file_name": "panoramic_0053_120.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0053_120.jpg"
+    },
+    {
+      "id": 660,
+      "file_name": "panoramic_0204_7.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0204_7.png"
+    },
+    {
+      "id": 661,
+      "file_name": "panoramic_0126_49.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0126_49.png"
+    },
+    {
+      "id": 662,
+      "file_name": "periapical_0364_110.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0364_110.png"
+    },
+    {
+      "id": 663,
+      "file_name": "periapical_0896_896.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0896_896.png"
+    },
+    {
+      "id": 664,
+      "file_name": "panoramic_0027_115.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0027_115.jpg"
+    },
+    {
+      "id": 665,
+      "file_name": "periapical_0894_230.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0894_230.png"
+    },
+    {
+      "id": 666,
+      "file_name": "panoramic_0106_52.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0106_52.jpg"
+    },
+    {
+      "id": 667,
+      "file_name": "periapical_0103_414.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0103_414.png"
+    },
+    {
+      "id": 668,
+      "file_name": "periapical_0883_1.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0883_1.png"
+    },
+    {
+      "id": 669,
+      "file_name": "bitewing_0747_X13863_20.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0747_X13863_20.JPG"
+    },
+    {
+      "id": 670,
+      "file_name": "bitewing_0453_X13300_1.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0453_X13300_1.JPG"
+    },
+    {
+      "id": 671,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0159_577.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0159_577.jpg"
+    },
+    {
+      "id": 672,
+      "file_name": "periapical_0775_775.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0775_775.png"
+    },
+    {
+      "id": 673,
+      "file_name": "bitewing_0081_X11463_41.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0081_X11463_41.JPG"
+    },
+    {
+      "id": 674,
+      "file_name": "panoramic_0003_88.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0003_88.jpg"
+    },
+    {
+      "id": 675,
+      "file_name": "periapical_0587_587.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0587_587.png"
+    },
+    {
+      "id": 676,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0584_547.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0584_547.jpg"
+    },
+    {
+      "id": 677,
+      "file_name": "periapical_0429_861.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0429_861.png"
+    },
+    {
+      "id": 678,
+      "file_name": "periapical_0412_461.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0412_461.png"
+    },
+    {
+      "id": 679,
+      "file_name": "periapical_0238_921.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0238_921.png"
+    },
+    {
+      "id": 680,
+      "file_name": "periapical_0397_397.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0397_397.png"
+    },
+    {
+      "id": 681,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0463_481.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0463_481.jpg"
+    },
+    {
+      "id": 682,
+      "file_name": "panoramic_0076_81.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0076_81.jpg"
+    },
+    {
+      "id": 683,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0071_1033.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0071_1033.png"
+    },
+    {
+      "id": 684,
+      "file_name": "periapical_0895_895.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0895_895.png"
+    },
+    {
+      "id": 685,
+      "file_name": "bitewing_0722_X12525_4.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0722_X12525_4.JPG"
+    },
+    {
+      "id": 686,
+      "file_name": "periapical_0744_41.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0744_41.png"
+    },
+    {
+      "id": 687,
+      "file_name": "bitewing_0668_X11434_11.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0668_X11434_11.JPG"
+    },
+    {
+      "id": 688,
+      "file_name": "bitewing_0494_X11079.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0494_X11079.JPG"
+    },
+    {
+      "id": 689,
+      "file_name": "periapical_0451_525.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0451_525.png"
+    },
+    {
+      "id": 690,
+      "file_name": "bitewing_1020_X14638_16.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_1020_X14638_16.JPG"
+    },
+    {
+      "id": 691,
+      "file_name": "periapical_0660_440.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0660_440.png"
+    },
+    {
+      "id": 692,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0233_114.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0233_114.jpg"
+    },
+    {
+      "id": 693,
+      "file_name": "periapical_0093_606.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0093_606.png"
+    },
+    {
+      "id": 694,
+      "file_name": "panoramic_0096_44.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0096_44.jpg"
+    },
+    {
+      "id": 695,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0443_283.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0443_283.jpg"
+    },
+    {
+      "id": 696,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0171_210.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0171_210.jpg"
+    },
+    {
+      "id": 697,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0552_31.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0552_31.jpg"
+    },
+    {
+      "id": 698,
+      "file_name": "periapical_0330_271.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0330_271.png"
+    },
+    {
+      "id": 699,
+      "file_name": "periapical_0462_860.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0462_860.png"
+    },
+    {
+      "id": 700,
+      "file_name": "bitewing_0571_X12116_8.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0571_X12116_8.JPG"
+    },
+    {
+      "id": 701,
+      "file_name": "periapical_0612_612.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0612_612.png"
+    },
+    {
+      "id": 702,
+      "file_name": "panoramic_0210_97.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0210_97.png"
+    },
+    {
+      "id": 703,
+      "file_name": "periapical_0018_18.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0018_18.png"
+    },
+    {
+      "id": 704,
+      "file_name": "bitewing_0972_X08071_42.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0972_X08071_42.JPG"
+    },
+    {
+      "id": 705,
+      "file_name": "bitewing_0702_X13021_9.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0702_X13021_9.JPG"
+    },
+    {
+      "id": 706,
+      "file_name": "panoramic_0278_110.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0278_110.png"
+    },
+    {
+      "id": 707,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0346_267.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0346_267.jpg"
+    },
+    {
+      "id": 708,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0014_406.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0014_406.jpg"
+    },
+    {
+      "id": 709,
+      "file_name": "periapical_0759_222.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0759_222.png"
+    },
+    {
+      "id": 710,
+      "file_name": "bitewing_0357_X07857_15.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0357_X07857_15.JPG"
+    },
+    {
+      "id": 711,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0630_140.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0630_140.jpg"
+    },
+    {
+      "id": 712,
+      "file_name": "panoramic_0223_86.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0223_86.png"
+    },
+    {
+      "id": 713,
+      "file_name": "bitewing_0088_X09582_20.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0088_X09582_20.JPG"
+    },
+    {
+      "id": 714,
+      "file_name": "periapical_0281_281.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0281_281.png"
+    },
+    {
+      "id": 715,
+      "file_name": "bitewing_0447_X10132_15.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0447_X10132_15.JPG"
+    },
+    {
+      "id": 716,
+      "file_name": "bitewing_0266_X12552_3.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0266_X12552_3.JPG"
+    },
+    {
+      "id": 717,
+      "file_name": "periapical_0220_220.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0220_220.png"
+    },
+    {
+      "id": 718,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0224_470.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0224_470.jpg"
+    },
+    {
+      "id": 719,
+      "file_name": "bitewing_0054_X13788_27.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0054_X13788_27.JPG"
+    },
+    {
+      "id": 720,
+      "file_name": "periapical_0622_622.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0622_622.png"
+    },
+    {
+      "id": 721,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0295_271.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0295_271.jpg"
+    },
+    {
+      "id": 722,
+      "file_name": "periapical_0564_564.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0564_564.png"
+    },
+    {
+      "id": 723,
+      "file_name": "bitewing_0954_X12116_11.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0954_X12116_11.JPG"
+    },
+    {
+      "id": 724,
+      "file_name": "periapical_0390_515.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0390_515.png"
+    },
+    {
+      "id": 725,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0146_99.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0146_99.jpg"
+    },
+    {
+      "id": 726,
+      "file_name": "periapical_0175_239.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0175_239.png"
+    },
+    {
+      "id": 727,
+      "file_name": "periapical_0246_246.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0246_246.png"
+    },
+    {
+      "id": 728,
+      "file_name": "periapical_0825_555.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0825_555.png"
+    },
+    {
+      "id": 729,
+      "file_name": "bitewing_0424_X13761_5-Copy.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0424_X13761_5-Copy.JPG"
+    },
+    {
+      "id": 730,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0278_12.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0278_12.jpg"
+    },
+    {
+      "id": 731,
+      "file_name": "periapical_0020_20.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0020_20.png"
+    },
+    {
+      "id": 732,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0216_504.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0216_504.jpg"
+    },
+    {
+      "id": 733,
+      "file_name": "periapical_0316_661.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0316_661.png"
+    },
+    {
+      "id": 734,
+      "file_name": "periapical_0221_221.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0221_221.png"
+    },
+    {
+      "id": 735,
+      "file_name": "bitewing_0578_X11603_28.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0578_X11603_28.JPG"
+    },
+    {
+      "id": 736,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0004_360.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0004_360.png"
+    },
+    {
+      "id": 737,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0237_15.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0237_15.jpg"
+    },
+    {
+      "id": 738,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0512_327.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0512_327.jpg"
+    },
+    {
+      "id": 739,
+      "file_name": "panoramic_0658_102.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0658_102.jpg"
+    },
+    {
+      "id": 740,
+      "file_name": "panoramic_0683_6.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0683_6.jpg"
+    },
+    {
+      "id": 741,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0661_68.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0661_68.png"
+    },
+    {
+      "id": 742,
+      "file_name": "periapical_0795_343.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0795_343.png"
+    },
+    {
+      "id": 743,
+      "file_name": "periapical_0274_274.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0274_274.png"
+    },
+    {
+      "id": 744,
+      "file_name": "periapical_0789_83.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0789_83.png"
+    },
+    {
+      "id": 745,
+      "file_name": "periapical_0418_418.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0418_418.png"
+    },
+    {
+      "id": 746,
+      "file_name": "periapical_0545_495.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0545_495.png"
+    },
+    {
+      "id": 747,
+      "file_name": "bitewing_0012_X03619_21.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0012_X03619_21.JPG"
+    },
+    {
+      "id": 748,
+      "file_name": "periapical_0352_352.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0352_352.png"
+    },
+    {
+      "id": 749,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0604_57.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0604_57.png"
+    },
+    {
+      "id": 750,
+      "file_name": "bitewing_0268_X12709_1.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0268_X12709_1.JPG"
+    },
+    {
+      "id": 751,
+      "file_name": "periapical_0345_847.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0345_847.png"
+    },
+    {
+      "id": 752,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0156_66.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0156_66.png"
+    },
+    {
+      "id": 753,
+      "file_name": "periapical_0493_36.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0493_36.png"
+    },
+    {
+      "id": 754,
+      "file_name": "periapical_0387_298.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0387_298.png"
+    },
+    {
+      "id": 755,
+      "file_name": "periapical_0040_605.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0040_605.png"
+    },
+    {
+      "id": 756,
+      "file_name": "periapical_0483_483.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0483_483.png"
+    },
+    {
+      "id": 757,
+      "file_name": "bitewing_0844_X13336_6.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0844_X13336_6.JPG"
+    },
+    {
+      "id": 758,
+      "file_name": "periapical_0053_363.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0053_363.png"
+    },
+    {
+      "id": 759,
+      "file_name": "periapical_0568_293.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0568_293.png"
+    },
+    {
+      "id": 760,
+      "file_name": "periapical_0342_714.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0342_714.png"
+    },
+    {
+      "id": 761,
+      "file_name": "periapical_0831_583.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0831_583.png"
+    },
+    {
+      "id": 762,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0324_110.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0324_110.png"
+    },
+    {
+      "id": 763,
+      "file_name": "bitewing_0607_X12110_3.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0607_X12110_3.JPG"
+    },
+    {
+      "id": 764,
+      "file_name": "periapical_0546_546.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0546_546.png"
+    },
+    {
+      "id": 765,
+      "file_name": "periapical_0197_197.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0197_197.png"
+    },
+    {
+      "id": 766,
+      "file_name": "bitewing_0899_X15560_5.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0899_X15560_5.JPG"
+    },
+    {
+      "id": 767,
+      "file_name": "periapical_0914_914.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0914_914.png"
+    },
+    {
+      "id": 768,
+      "file_name": "periapical_0054_54.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0054_54.png"
+    },
+    {
+      "id": 769,
+      "file_name": "panoramic_0774_112.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0774_112.jpg"
+    },
+    {
+      "id": 770,
+      "file_name": "periapical_0477_309.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0477_309.png"
+    },
+    {
+      "id": 771,
+      "file_name": "periapical_0711_711.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0711_711.png"
+    },
+    {
+      "id": 772,
+      "file_name": "periapical_0634_508.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0634_508.png"
+    },
+    {
+      "id": 773,
+      "file_name": "periapical_0479_447.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0479_447.png"
+    },
+    {
+      "id": 774,
+      "file_name": "bitewing_0741_X11603_9.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0741_X11603_9.JPG"
+    },
+    {
+      "id": 775,
+      "file_name": "bitewing_1067_X14160_9.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_1067_X14160_9.JPG"
+    },
+    {
+      "id": 776,
+      "file_name": "periapical_0896_581.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0896_581.png"
+    },
+    {
+      "id": 777,
+      "file_name": "periapical_0278_923.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0278_923.png"
+    },
+    {
+      "id": 778,
+      "file_name": "periapical_0832_597.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0832_597.png"
+    },
+    {
+      "id": 779,
+      "file_name": "bitewing_0048_X14805_24.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0048_X14805_24.JPG"
+    },
+    {
+      "id": 780,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0598_354.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0598_354.jpg"
+    },
+    {
+      "id": 781,
+      "file_name": "periapical_0479_479.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0479_479.png"
+    },
+    {
+      "id": 782,
+      "file_name": "periapical_0553_553.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0553_553.png"
+    },
+    {
+      "id": 783,
+      "file_name": "periapical_0587_682.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0587_682.png"
+    },
+    {
+      "id": 784,
+      "file_name": "bitewing_0338_X13021_3.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0338_X13021_3.JPG"
+    },
+    {
+      "id": 785,
+      "file_name": "bitewing_0533_X11176_31.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0533_X11176_31.JPG"
+    },
+    {
+      "id": 786,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0402_323.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0402_323.jpg"
+    },
+    {
+      "id": 787,
+      "file_name": "periapical_0829_829.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0829_829.png"
+    },
+    {
+      "id": 788,
+      "file_name": "periapical_0532_532.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0532_532.png"
+    },
+    {
+      "id": 789,
+      "file_name": "panoramic_0736_65.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0736_65.jpg"
+    },
+    {
+      "id": 790,
+      "file_name": "panoramic_0091_54.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0091_54.jpg"
+    },
+    {
+      "id": 791,
+      "file_name": "periapical_0694_584.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0694_584.png"
+    },
+    {
+      "id": 792,
+      "file_name": "periapical_0593_593.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0593_593.png"
+    },
+    {
+      "id": 793,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0167_238.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0167_238.jpg"
+    },
+    {
+      "id": 794,
+      "file_name": "periapical_0248_666.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0248_666.png"
+    },
+    {
+      "id": 795,
+      "file_name": "periapical_0405_893.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0405_893.png"
+    },
+    {
+      "id": 796,
+      "file_name": "periapical_0538_308.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0538_308.png"
+    },
+    {
+      "id": 797,
+      "file_name": "bitewing_0833_X08071_40.JPG",
+      "width": 0,
+      "height": 0,
+      "xray_type": "bitewing",
+      "s3_key": "datasets/bw_pa_pans/bitewing/bitewing_0833_X08071_40.JPG"
+    },
+    {
+      "id": 798,
+      "file_name": "periapical_0487_487.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0487_487.png"
+    },
+    {
+      "id": 799,
+      "file_name": "periapical_0030_201.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0030_201.png"
+    },
+    {
+      "id": 800,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0508_131.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0508_131.jpg"
+    },
+    {
+      "id": 801,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0182_98.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0182_98.png"
+    },
+    {
+      "id": 802,
+      "file_name": "panoramic_0319_55.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0319_55.png"
+    },
+    {
+      "id": 803,
+      "file_name": "panoramic_20250630_164335_pan_images_1_0339_266.jpg",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_20250630_164335_pan_images_1_0339_266.jpg"
+    },
+    {
+      "id": 804,
+      "file_name": "periapical_0667_667.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0667_667.png"
+    },
+    {
+      "id": 805,
+      "file_name": "periapical_0484_484.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0484_484.png"
+    },
+    {
+      "id": 806,
+      "file_name": "panoramic_0286_108.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "panoramic",
+      "s3_key": "datasets/bw_pa_pans/panoramic/panoramic_0286_108.png"
+    },
+    {
+      "id": 807,
+      "file_name": "periapical_0492_876.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0492_876.png"
+    },
+    {
+      "id": 808,
+      "file_name": "periapical_0920_920.png",
+      "width": 0,
+      "height": 0,
+      "xray_type": "periapical",
+      "s3_key": "datasets/bw_pa_pans/periapical/periapical_0920_920.png"
+    }
+  ]
+}

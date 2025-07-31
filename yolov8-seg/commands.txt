@@ -1,0 +1,59 @@
+
+# Main class groups
+python sagemaker_launcher.py --epochs 120 --class-group bone-loss --instance-type ml.g6.24xlarge --batch-size 4 --image-size 512 --learning-rate 0.0005 --model-size m --job-name yolov8-bone-loss
+
+python sagemaker_launcher.py --epochs 120 --class-group teeth --instance-type ml.g6.24xlarge --batch-size 4 --image-size 512 --learning-rate 0.0005 --model-size l --job-name yolov8-teeth
+
+python sagemaker_launcher.py --epochs 120 --class-group conditions --instance-type ml.g6.12xlarge --batch-size 4 --image-size 512 --learning-rate 0.0005 --model-size m --job-name yolov8-conditions
+
+python sagemaker_launcher.py --epochs 120 --class-group surfaces --instance-type ml.g6.12xlarge --batch-size 4 --image-size 512 --learning-rate 0.0005 --model-size s --job-name yolov8-surfaces
+
+# Paired landmark groups
+python sagemaker_launcher.py --epochs 120 --class-group mesial --instance-type ml.g6.12xlarge --batch-size 8 --image-size 512 --learning-rate 0.0005 --model-size s --job-name yolov8-mesial
+
+python sagemaker_launcher.py --epochs 120 --class-group distal --instance-type ml.g6.12xlarge --batch-size 8 --image-size 512 --learning-rate 0.0005 --model-size s --job-name yolov8-distal
+
+python sagemaker_launcher.py --epochs 120 --class-group tooth-aspects --instance-type ml.g6.12xlarge --batch-size 8 --image-size 512 --learning-rate 0.0005 --model-size s --job-name yolov8-tooth-aspects
+
+# Single landmark/condition classes
+python sagemaker_launcher.py --epochs 120 --class-group apex --instance-type ml.g6.12xlarge --batch-size 16 --image-size 512 --learning-rate 0.0005 --model-size n --job-name yolov8-apex
+
+python sagemaker_launcher.py --epochs 120 --class-group bridge --instance-type ml.g6.12xlarge --batch-size 16 --image-size 512 --learning-rate 0.0005 --model-size n --job-name yolov8-bridge
+
+python sagemaker_launcher.py --epochs 200 --class-group margin --instance-type ml.g6.12xlarge --batch-size 16 --image-size 512 --learning-rate 0.0005 --model-size m --job-name yolov8-margin
+
+python sagemaker_launcher.py --epochs 120 --class-group enamel --instance-type ml.g6.12xlarge --batch-size 16 --image-size 512 --learning-rate 0.0005 --model-size n --job-name yolov8-enamel
+
+python sagemaker_launcher.py --epochs 120 --class-group pulp --instance-type ml.g6.12xlarge --batch-size 16 --image-size 512 --learning-rate 0.0005 --model-size n --job-name yolov8-pulp
+
+python sagemaker_launcher.py --epochs 120 --class-group filling --instance-type ml.g6.12xlarge --batch-size 16 --image-size 512 --learning-rate 0.0005 --model-size n --job-name yolov8-filling
+
+python sagemaker_launcher.py --epochs 120 --class-group crown --instance-type ml.g6.12xlarge --batch-size 16 --image-size 512 --learning-rate 0.0005 --model-size n --job-name yolov8-crown
+
+python sagemaker_launcher.py --epochs 150 --class-group impaction --instance-type ml.g6.12xlarge --batch-size 16 --image-size 512 --learning-rate 0.0005 --model-size m --job-name yolov8-impaction
+
+python sagemaker_launcher.py --epochs 200 --class-group decay --instance-type ml.g6.12xlarge --batch-size 16 --image-size 512 --learning-rate 0.0005 --model-size l --job-name yolov8-decay
+
+python sagemaker_launcher.py --epochs 200 --class-group cej --instance-type ml.g6.12xlarge --batch-size 16 --image-size 512 --learning-rate 0.0005 --model-size m --job-name yolov8-cej
+
+python sagemaker_launcher.py --epochs 150 --class-group tooth-anatomy --instance-type ml.g6.12xlarge --batch-size 16 --image-size 512 --learning-rate 0.0005 --model-size m --job-name yolov8-enamel-pulp-v1
+
+python sagemaker_launcher.py --epochs 150 --class-group missing --instance-type ml.g6.12xlarge --batch-size 16 --image-size 512 --learning-rate 0.0005 --model-size m --job-name yolov8-missing-v1
+
+python sagemaker_launcher.py --epochs 120 --class-group implant --instance-type ml.g6.8xlarge --batch-size 16 --image-size 512 --learning-rate 0.0005 --model-size s --job-name yolov8-implant
+
+python sagemaker_launcher.py --epochs 200 --class-group calculus --instance-type ml.g6e.12xlarge --batch-size 16 --image-size 512 --learning-rate 0.0005 --model-size l --job-name yolov8-calculus
+
+# Surface classes
+python sagemaker_launcher.py --epochs 150 --class-group distal-surface --instance-type ml.g6.12xlarge --batch-size 16 --image-size 512 --learning-rate 0.0005 --model-size m --job-name yolov8-distal-surface-v1
+
+python sagemaker_launcher.py --epochs 150 --class-group mesial-surface --instance-type ml.g6e.12xlarge --batch-size 16 --image-size 512 --learning-rate 0.0005 --model-size m --job-name yolov8-mesial-surface-v1
+
+python sagemaker_launcher.py --epochs 200 --class-group occlusal-surface --instance-type ml.g6e.12xlarge --batch-size 16 --image-size 512 --learning-rate 0.0005 --model-size m --job-name yolov8-occlusal-surface
+
+# Teeth groups (larger models due to many classes)
+python sagemaker_launcher.py --epochs 120 --class-group permanent-teeth --instance-type ml.g6.8xlarge --batch-size 4 --image-size 512 --learning-rate 0.0005 --model-size l --job-name yolov8-permanent-teeth
+
+python sagemaker_launcher.py --epochs 200 --class-group dental-work --instance-type ml.g6.24xlarge --batch-size 16 --image-size 512 --learning-rate 0.0005 --model-size l --job-name yolov8-dental-work
+
+

@@ -1,0 +1,178 @@
+[
+  {
+    "image": "/Users/michaelmontalbano/work/repos/cej-ac-detection/dir/inference/demo_images/01ddb3ac__standard-rn-3_1.jpg",
+    "predicted_class": 33
+  },
+  {
+    "image": "/Users/michaelmontalbano/work/repos/cej-ac-detection/dir/inference/demo_images/0be703ae__hollow-cylinder-2_1.jpg",
+    "predicted_class": 0
+  },
+  {
+    "image": "/Users/michaelmontalbano/work/repos/cej-ac-detection/dir/inference/demo_images/0dd51a8d__blx-5_1.png",
+    "predicted_class": 33
+  },
+  {
+    "image": "/Users/michaelmontalbano/work/repos/cej-ac-detection/dir/inference/demo_images/12365834__standard-plus-1_1.png",
+    "predicted_class": 21
+  },
+  {
+    "image": "/Users/michaelmontalbano/work/repos/cej-ac-detection/dir/inference/demo_images/15c8eff7__pure-ceramic-monotype_1.png",
+    "predicted_class": 33
+  },
+  {
+    "image": "/Users/michaelmontalbano/work/repos/cej-ac-detection/dir/inference/demo_images/288a866d__standard-plus-2_1.png",
+    "predicted_class": 27
+  },
+  {
+    "image": "/Users/michaelmontalbano/work/repos/cej-ac-detection/dir/inference/demo_images/6ed0abb7__standard-rn-2_1.jpg",
+    "predicted_class": 33
+  },
+  {
+    "image": "/Users/michaelmontalbano/work/repos/cej-ac-detection/dir/inference/demo_images/71f91161__bone-level-tapered-4_1.png",
+    "predicted_class": 0
+  },
+  {
+    "image": "/Users/michaelmontalbano/work/repos/cej-ac-detection/dir/inference/demo_images/72f87944__standard-rn_1.jpg",
+    "predicted_class": 33
+  },
+  {
+    "image": "/Users/michaelmontalbano/work/repos/cej-ac-detection/dir/inference/demo_images/7e6400a5__bone-level-rc-2_1.jpg",
+    "predicted_class": 33
+  },
+  {
+    "image": "/Users/michaelmontalbano/work/repos/cej-ac-detection/dir/inference/demo_images/842651f6__bone-level-tapered-2_1.png",
+    "predicted_class": 21
+  },
+  {
+    "image": "/Users/michaelmontalbano/work/repos/cej-ac-detection/dir/inference/demo_images/90ee74fe__pure-ceramic_1.png",
+    "predicted_class": 33
+  },
+  {
+    "image": "/Users/michaelmontalbano/work/repos/cej-ac-detection/dir/inference/demo_images/95cd7f8c__hollow-cylinder_1.jpg",
+    "predicted_class": 33
+  },
+  {
+    "image": "/Users/michaelmontalbano/work/repos/cej-ac-detection/dir/inference/demo_images/99852402__standard-wn_1.jpg",
+    "predicted_class": 33
+  },
+  {
+    "image": "/Users/michaelmontalbano/work/repos/cej-ac-detection/dir/inference/demo_images/a1fb150d__bone-level-nc_1.jpg",
+    "predicted_class": 33
+  },
+  {
+    "image": "/Users/michaelmontalbano/work/repos/cej-ac-detection/dir/inference/demo_images/a5708ed6__pure-ceramic-1_1.png",
+    "predicted_class": 24
+  },
+  {
+    "image": "/Users/michaelmontalbano/work/repos/cej-ac-detection/dir/inference/demo_images/a6480126__bone-level-1_1.png",
+    "predicted_class": 33
+  },
+  {
+    "image": "/Users/michaelmontalbano/work/repos/cej-ac-detection/dir/inference/demo_images/b87d47ad__standard-implant_1.png",
+    "predicted_class": 34
+  },
+  {
+    "image": "/Users/michaelmontalbano/work/repos/cej-ac-detection/dir/inference/demo_images/blx2_jpg.rf.222f348c03eea4a342c8e3c4e04be71a.jpg",
+    "predicted_class": 33
+  },
+  {
+    "image": "/Users/michaelmontalbano/work/repos/cej-ac-detection/dir/inference/demo_images/blx2_jpg.rf.a17013378aaf7ea5478899c3add3140c.jpg",
+    "predicted_class": 33
+  },
+  {
+    "image": "/Users/michaelmontalbano/work/repos/cej-ac-detection/dir/inference/demo_images/blx2_jpg.rf.b55159bbd6c225ca7e6869d17e28bf58.jpg",
+    "predicted_class": 33
+  },
+  {
+    "image": "/Users/michaelmontalbano/work/repos/cej-ac-detection/dir/inference/demo_images/blx3_jpg.rf.24a793300e643b7d300fadcc3f3c2d28.jpg",
+    "predicted_class": 9
+  },
+  {
+    "image": "/Users/michaelmontalbano/work/repos/cej-ac-detection/dir/inference/demo_images/blx3_jpg.rf.ccd01011454908f9bd3c2624403c1613.jpg",
+    "predicted_class": 33
+  },
+  {
+    "image": "/Users/michaelmontalbano/work/repos/cej-ac-detection/dir/inference/demo_images/blx3_jpg.rf.d7f019879101006e4c4be78868192f40.jpg",
+    "predicted_class": 29
+  },
+  {
+    "image": "/Users/michaelmontalbano/work/repos/cej-ac-detection/dir/inference/demo_images/blx4_jpg.rf.24aec61d8bcdebbdac213cc6bc21bd9a.jpg",
+    "predicted_class": 33
+  },
+  {
+    "image": "/Users/michaelmontalbano/work/repos/cej-ac-detection/dir/inference/demo_images/blx4_jpg.rf.c88e9b973e78aa26f4abb2a1a5a8b522.jpg",
+    "predicted_class": 33
+  },
+  {
+    "image": "/Users/michaelmontalbano/work/repos/cej-ac-detection/dir/inference/demo_images/blx4_jpg.rf.d75d2d658dc6788591404c5475aa13be.jpg",
+    "predicted_class": 33
+  },
+  {
+    "image": "/Users/michaelmontalbano/work/repos/cej-ac-detection/dir/inference/demo_images/blx5_jpg.rf.722b386554aac18d90a4d7bd5a9422f4.jpg",
+    "predicted_class": 33
+  },
+  {
+    "image": "/Users/michaelmontalbano/work/repos/cej-ac-detection/dir/inference/demo_images/blx5_jpg.rf.d4d95c0388fa46552f5adbf08130a782.jpg",
+    "predicted_class": 33
+  },
+  {
+    "image": "/Users/michaelmontalbano/work/repos/cej-ac-detection/dir/inference/demo_images/blx5_jpg.rf.e20ea06f0584cc98bbf72ed293dcde2a.jpg",
+    "predicted_class": 33
+  },
+  {
+    "image": "/Users/michaelmontalbano/work/repos/cej-ac-detection/dir/inference/demo_images/blx_jpg.rf.0e42f6d8681b2fbc7835196448d62d21.jpg",
+    "predicted_class": 33
+  },
+  {
+    "image": "/Users/michaelmontalbano/work/repos/cej-ac-detection/dir/inference/demo_images/blx_jpg.rf.cc6466b15f1e581563ee054d6837549c.jpg",
+    "predicted_class": 33
+  },
+  {
+    "image": "/Users/michaelmontalbano/work/repos/cej-ac-detection/dir/inference/demo_images/blx_jpg.rf.efd7e06a1a56ccd8c27b81f6cd5bde78.jpg",
+    "predicted_class": 33
+  },
+  {
+    "image": "/Users/michaelmontalbano/work/repos/cej-ac-detection/dir/inference/demo_images/c724b6a0__blx-2_1.png",
+    "predicted_class": 33
+  },
+  {
+    "image": "/Users/michaelmontalbano/work/repos/cej-ac-detection/dir/inference/demo_images/dd5719af__bone-level-tapered-1_1.png",
+    "predicted_class": 33
+  },
+  {
+    "image": "/Users/michaelmontalbano/work/repos/cej-ac-detection/dir/inference/demo_images/f1d1bfda__blx-1_1.png",
+    "predicted_class": 33
+  },
+  {
+    "image": "/Users/michaelmontalbano/work/repos/cej-ac-detection/dir/inference/demo_images/f84e7463__bone-level-tapered_1.png",
+    "predicted_class": 33
+  },
+  {
+    "image": "/Users/michaelmontalbano/work/repos/cej-ac-detection/dir/inference/demo_images/michael_kristensen_blx_15_jpg.rf.679bcd0f4d179436569c8da9b2c13142.jpg",
+    "predicted_class": 33
+  },
+  {
+    "image": "/Users/michaelmontalbano/work/repos/cej-ac-detection/dir/inference/demo_images/stuman_jpg.rf.ad8dc0c04accc600ff469f309a4ae452.jpg",
+    "predicted_class": 33
+  },
+  {
+    "image": "/Users/michaelmontalbano/work/repos/cej-ac-detection/dir/inference/demo_images/stuman_jpg.rf.b7a53ff5095799e4f615712f065998f9.jpg",
+    "predicted_class": 33
+  },
+  {
+    "image": "/Users/michaelmontalbano/work/repos/cej-ac-detection/dir/inference/demo_images/stuman_jpg.rf.e2103c800442f3c2d6cb1f852cc0c7b6.jpg",
+    "predicted_class": 24
+  },
+  {
+    "image": "/Users/michaelmontalbano/work/repos/cej-ac-detection/dir/inference/demo_images/swart_Fig17_TLX_jpg.rf.51b1b0114dde458e720363e1e8eb3f67.jpg",
+    "predicted_class": 33
+  },
+  {
+    "image": "/Users/michaelmontalbano/work/repos/cej-ac-detection/dir/inference/demo_images/swart_Fig17_TLX_jpg.rf.51e41a4f6121e29b2378771366853b9a.jpg",
+    "predicted_class": 33
+  },
+  {
+    "image": "/Users/michaelmontalbano/work/repos/cej-ac-detection/dir/inference/demo_images/swart_Fig17_TLX_jpg.rf.c7af9d5a7381d7da8d3c6a681c3e1f7b.jpg",
+    "predicted_class": 33
+  }
+]
