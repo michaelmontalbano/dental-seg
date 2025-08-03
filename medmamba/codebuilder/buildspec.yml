@@ -4,7 +4,7 @@ env:
   variables:
     IMAGE_NAME: medmamba
     IMAGE_TAG: latest
-    ECR_REPO:   medmamba
+    ECR_REPO: medmamba
     AWS_REGION: us-west-2
     AWS_ACCOUNT_ID: 552401576656
 
@@ -26,6 +26,6 @@ phases:
     commands:
       - echo Pushing the Docker image to ECR...
       - docker push $REPO_URI:$IMAGE_TAG
+
 artifacts:
   files: []
-
