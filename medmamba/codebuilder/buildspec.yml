@@ -1,0 +1,31 @@
+version: 0.2
+
+env:
+  variables:
+    IMAGE_NAME: medmamba
+    IMAGE_TAG: latest
+    ECR_REPO:   552401576656.dkr.ecr.us-west-2.amazonaws.com/medmamba
+    AWS_REGION: us-west-2
+    AWS_ACCOUNT_ID: 552401576656
+
+phases:
+  pre_build:
+    commands:
+      - echo Logging in to Amazon ECR...
+      - aws ecr get-login-password --region $AWS_REGION | docker login --username AWS --password-stdin $AWS_ACCOUNT_ID.dkr.ecr.$AWS_REGION.amazonaws.com
+      - REPO_URI=$AWS_ACCOUNT_ID.dkr.ecr.$AWS_REGION.amazonaws.com/$ECR_REPO
+      - echo Repo URI: $REPO_URI
+
+  build:
+    commands:
+      - echo Building the Docker image...
+      - docker build -f Dockerfile.light -t $IMAGE_NAME:$IMAGE_TAG .
+      - docker tag $IMAGE_NAME:$IMAGE_TAG $REPO_URI:$IMAGE_TAG
+
+  post_build:
+    commands:
+      - echo Pushing the Docker image to ECR...
+      - docker push $REPO_URI:$IMAGE_TAG
+artifacts:
+  files: []
+

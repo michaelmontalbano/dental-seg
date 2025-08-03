@@ -1,0 +1,11 @@
+timm>=0.9.0
+torch>=1.13.0
+torchvision>=0.14.0
+scikit-learn
+matplotlib
+numpy<2.0,>=1.21.0
+pillow>=9.0.0
+PyYAML>=6.0
+tqdm>=4.64.0
+seaborn>=0.12.0
+wandb>=0.15.0

@@ -1,0 +1,11 @@
+Instance ID: i-06062cbfcf76dae1d
+Region: us-west-2
+Public IP: 35.93.222.78
+Key Name: medmamba-builder-key
+Security Group: sg-0a044c97cf727182c
+Instance Type: t3.medium
+
+To connect: ./connect_to_builder.sh
+To manage: ./manage_builder.sh {start|stop|status|terminate}
+
+CloudWatch Dashboard: https://console.aws.amazon.com/cloudwatch/home?region=us-west-2#dashboards:name=MedMambaBuilder
