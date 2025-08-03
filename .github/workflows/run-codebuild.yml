@@ -1,0 +1,30 @@
+name: Trigger CodeBuild from GitHub
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  codebuild:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v1
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-west-2
+
+      - name: Trigger CodeBuild build
+        uses: aws-actions/aws-codebuild-run-build@v1
+        with:
+          project-name: medmamba-build
+          disable-source-override: true
+          buildspec-override: medmamba/codebuilder/buildspec.yml
+
