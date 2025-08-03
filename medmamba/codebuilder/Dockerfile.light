@@ -1,18 +1,19 @@
-# Stage 1: Base PyTorch image with CUDA support
-FROM pytorch/pytorch:2.2.2-cuda12.1-cudnn8-runtime
+FROM pytorch/pytorch:2.2.2-cuda12.1-cudnn8-devel
 
 WORKDIR /opt/ml/code
 
-# Pre-install numpy first to prevent mamba-ssm error
-RUN pip install --no-cache-dir numpy==1.24.4
+# Install dependencies early to avoid nvcc errors
+RUN apt-get update && apt-get install -y wget git build-essential
 
-# Install other Python dependencies
+# Preinstall numpy before any torch-related build hooks
+RUN pip install --no-cache-dir --upgrade pip setuptools wheel numpy==1.24.4
+
+# Add requirements and install
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Add your main code (replaces wget step)
+# Copy your actual model/training code
 COPY MedMamba.py ./MedMamba.py
 COPY train.py ./train.py
 
-# Default command
 CMD ["python", "train.py"]
