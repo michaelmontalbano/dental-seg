@@ -7,6 +7,7 @@ RUN apt-get update && \
     apt-get install -y --no-install-recommends \
     python3-pip \
     python3-dev \
+    git \
     wget \
     && rm -rf /var/lib/apt/lists/*
 
@@ -16,27 +17,33 @@ RUN ln -s /usr/bin/python3 /usr/bin/python
 # Upgrade pip
 RUN pip3 install --no-cache-dir --upgrade pip
 
-# Download MedMamba.py
-RUN wget https://raw.githubusercontent.com/YubiaoYue/MedMamba/main/MedMamba.py -O /opt/ml/code/MedMamba.py
-
 # Copy requirements and install in one layer with no-cache-dir
 COPY requirements.txt ./
 RUN pip3 install --no-cache-dir -r requirements.txt
 
-# Copy training scripts
-COPY train.py launcher.py ./
-COPY train /opt/ml/code/train
+# Set up nnU-Net environment variables
+ENV nnUNet_raw="/opt/ml/input/data/training"
+ENV nnUNet_preprocessed="/tmp/nnUNet_preprocessed"
+ENV nnUNet_results="/opt/ml/model"
+ENV nnUNet_n_proc_DA=8
 
-# Make the training scripts executable
-RUN chmod +x train.py train
+# Copy training script
+COPY train.py ./
 
-# Copy train wrapper to /usr/local/bin where SageMaker expects it
-RUN cp /opt/ml/code/train /usr/local/bin/train && \
-    chmod +x /usr/local/bin/train
+# Make the training script executable
+RUN chmod +x train.py
 
-# Tell SageMaker which Python program to run and where to find it
-ENV SAGEMAKER_PROGRAM train.py
-ENV SAGEMAKER_SUBMIT_DIRECTORY /opt/ml/code
+# Set Python unbuffered for better logging
+ENV PYTHONUNBUFFERED=1
 
-# Add ENTRYPOINT as fallback
-ENTRYPOINT ["python3", "/opt/ml/code/train.py"]
+# Tell SageMaker which Python program to run
+ENV SAGEMAKER_PROGRAM=train.py
+ENV SAGEMAKER_SUBMIT_DIRECTORY=/opt/ml/code
+
+# Create necessary directories
+RUN mkdir -p /opt/ml/input/data/training \
+    /opt/ml/model \
+    /opt/ml/output \
+    /tmp/nnUNet_preprocessed
+
+# No ENTRYPOINT - let SageMaker handle execution
