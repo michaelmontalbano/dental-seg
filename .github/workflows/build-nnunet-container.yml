@@ -1,0 +1,110 @@
+name: Build and Push nnU-Net Container
+
+on:
+  push:
+    branches: [main, develop]
+    paths:
+      - 'nnunet/container_nnunet/**'
+      - '.github/workflows/build-nnunet-container.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'nnunet/container_nnunet/**'
+  workflow_dispatch:
+    inputs:
+      cuda_version:
+        description: 'CUDA version'
+        required: false
+        default: '12.1.1'
+
+env:
+  AWS_REGION: us-west-2
+  ECR_REPOSITORY: nnunet-dental-segmentation
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
+    
+    strategy:
+      matrix:
+        include:
+          - cuda_version: "12.1.1"
+            python_version: "3.9"
+            tag_suffix: "cuda12.1-py39"
+          - cuda_version: "11.8.0"
+            python_version: "3.9"
+            tag_suffix: "cuda11.8-py39"
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+    
+    - name: Configure AWS credentials
+      uses: aws-actions/configure-aws-credentials@v4
+      with:
+        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+        aws-region: ${{ env.AWS_REGION }}
+    
+    - name: Login to Amazon ECR
+      id: login-ecr
+      uses: aws-actions/amazon-ecr-login@v2
+    
+    - name: Set up QEMU
+      uses: docker/setup-qemu-action@v3
+    
+    - name: Set up Docker Buildx
+      uses: docker/setup-buildx-action@v3
+    
+    - name: Extract metadata
+      id: meta
+      run: |
+        echo "date=$(date +'%Y%m%d')" >> $GITHUB_OUTPUT
+        echo "sha_short=$(git rev-parse --short HEAD)" >> $GITHUB_OUTPUT
+        echo "registry=${{ steps.login-ecr.outputs.registry }}" >> $GITHUB_OUTPUT
+    
+    - name: Create ECR repository if it doesn't exist
+      run: |
+        aws ecr describe-repositories --repository-names ${{ env.ECR_REPOSITORY }} --region ${{ env.AWS_REGION }} 2>/dev/null || \
+        aws ecr create-repository --repository-name ${{ env.ECR_REPOSITORY }} --region ${{ env.AWS_REGION }}
+    
+    - name: Build and push Docker image
+      uses: docker/build-push-action@v5
+      with:
+        context: ./nnunet/container_nnunet
+        file: ./nnunet/container_nnunet/Dockerfile
+        platforms: linux/amd64
+        push: true
+        tags: |
+          ${{ steps.meta.outputs.registry }}/${{ env.ECR_REPOSITORY }}:latest-${{ matrix.tag_suffix }}
+          ${{ steps.meta.outputs.registry }}/${{ env.ECR_REPOSITORY }}:${{ steps.meta.outputs.date }}-${{ steps.meta.outputs.sha_short }}-${{ matrix.tag_suffix }}
+          ${{ steps.meta.outputs.registry }}/${{ env.ECR_REPOSITORY }}:${{ github.sha }}-${{ matrix.tag_suffix }}
+        cache-from: type=gha,scope=nnunet-${{ matrix.cuda_version }}
+        cache-to: type=gha,mode=max,scope=nnunet-${{ matrix.cuda_version }}
+        build-args: |
+          CUDA_VERSION=${{ matrix.cuda_version }}
+          PYTHON_VERSION=${{ matrix.python_version }}
+    
+    - name: Run security scan
+      uses: aquasecurity/trivy-action@master
+      with:
+        image-ref: ${{ steps.meta.outputs.registry }}/${{ env.ECR_REPOSITORY }}:${{ github.sha }}-${{ matrix.tag_suffix }}
+        format: 'sarif'
+        output: 'trivy-results.sarif'
+        severity: 'CRITICAL,HIGH'
+    
+    - name: Upload security scan results
+      uses: github/codeql-action/upload-sarif@v2
+      if: always()
+      with:
+        sarif_file: 'trivy-results.sarif'
+    
+    - name: Output image URI
+      run: |
+        echo "✅ Successfully built and pushed nnU-Net image"
+        echo "📦 Image URI: ${{ steps.meta.outputs.registry }}/${{ env.ECR_REPOSITORY }}:latest-${{ matrix.tag_suffix }}"
+        echo ""
+        echo "To use this image in SageMaker, update your launcher with:"
