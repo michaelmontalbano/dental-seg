@@ -1,0 +1,4 @@
+#!/bin/bash
+# Wrapper script for SageMaker - executes train.py
+cd /opt/ml/code
+exec python3 train.py "$@"
