@@ -27,8 +27,7 @@ COPY train.py medmamba.py launcher.py train ./
 RUN chmod +x train.py train
 
 # Tell SageMaker which Python program to run and where to find it
-ENV SAGEMAKER_PROGRAM train.py
+ENV SAGEMAKER_PROGRAM train
 ENV SAGEMAKER_SUBMIT_DIRECTORY /opt/ml/code
 
-# Add ENTRYPOINT as fallback
-ENTRYPOINT ["python3", "/opt/ml/code/train.py"]
+
