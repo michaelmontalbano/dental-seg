@@ -1,19 +1,22 @@
-FROM pytorch/pytorch:2.2.2-cuda12.1-cudnn8-devel
+FROM nvidia/cuda:12.1.1-cudnn8-devel-ubuntu22.04
 
 WORKDIR /opt/ml/code
 
-# Install dependencies early to avoid nvcc errors
-RUN apt-get update && apt-get install -y wget git build-essential
+# Install Python and pip
+RUN apt-get update && apt-get install -y --fix-missing python3-pip
+RUN pip3 install --upgrade pip
 
-# Preinstall numpy before any torch-related build hooks
-RUN pip install --no-cache-dir --upgrade pip setuptools wheel numpy==1.24.4
+# Install Python dependencies
+COPY requirements.txt ./
+RUN pip3 install -r requirements.txt
 
-# Add requirements and install
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+# Copy training scripts and wrapper
+COPY train.py launcher.py train MedMamba.py ./
 
-# Copy your actual model/training code
-COPY MedMamba.py ./MedMamba.py
-COPY train.py ./train.py
+# Make the wrapper executable
+RUN chmod +x train
 
-CMD ["python", "train.py"]
+# Add to PATH for SageMaker
+RUN ln -s /opt/ml/code/train /usr/local/bin/train
+
+# No ENTRYPOINT — SageMaker will invoke 'train'
