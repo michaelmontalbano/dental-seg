@@ -18,6 +18,13 @@ from nnunetv2.run.run_training import run_training
 from nnunetv2.utilities.find_class_by_name import recursive_find_python_class
 from sagemaker_training import environment
 
+import os
+
+os.environ["nnUNet_raw_data_base"] = os.getenv("nnUNet_raw_data_base", "/opt/ml/input/data/nnUNet_raw")
+os.environ["nnUNet_preprocessed"] = os.getenv("nnUNet_preprocessed", "/opt/ml/input/data/nnUNet_preprocessed")
+os.environ["RESULTS_FOLDER"] = os.getenv("RESULTS_FOLDER", "/opt/ml/model")
+
+
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
@@ -32,7 +39,7 @@ class nnUNetSageMakerTrainer:
     def setup_paths(self):
         """Configure nnU-Net paths for SageMaker environment"""
         # Update environment variables for nnU-Net
-        os.environ['nnUNet_raw'] = self.args.data_dir
+        os.environ['nnUNet_raw_data_base'] = self.args.data_dir
         os.environ['nnUNet_preprocessed'] = '/tmp/nnUNet_preprocessed'
         os.environ['nnUNet_results'] = self.args.model_dir
         os.environ['nnUNet_n_proc_DA'] = str(self.args.num_workers_dataloader)
@@ -45,7 +52,8 @@ class nnUNetSageMakerTrainer:
         """Prepare dataset structure for nnU-Net"""
         # Copy data from S3 to expected nnU-Net structure
         source_dir = Path(self.args.data_dir)
-        target_dir = Path(os.environ['nnUNet_raw']) / self.args.task_name
+        target_dir = Path(os.environ['nnUNet_raw_data_base']) / self.args.task_name
+
         
         if not target_dir.exists():
             logger.info(f"Setting up dataset at {target_dir}")
