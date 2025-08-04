@@ -154,10 +154,8 @@ def main():
     
     # Create PyTorch estimator with custom ECR image
     estimator = PyTorch(
-        entry_point='train.py',
-        source_dir=source_dir_path,  # Use absolute path to container_medmamba
         role=role,
-        image_uri=ecr_image_uri,  # Use custom ECR image instead of framework/version
+        image_uri=ecr_image_uri,
         instance_type=args.instance_type,
         instance_count=args.instance_count,
         hyperparameters=hyperparameters,
@@ -165,6 +163,7 @@ def main():
         base_job_name='medmamba-dental',
         **train_kwargs
     )
+
     
     # Prepare input data configuration
     inputs = {

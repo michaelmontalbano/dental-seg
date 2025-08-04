@@ -1,0 +1,29 @@
+aws sagemaker create-training-job \
+  --region us-west-2 \
+  --training-job-name medmamba-job-$(date +%s) \
+  --algorithm-specification TrainingImage=552401576656.dkr.ecr.us-west-2.amazonaws.com/medmamba:latest,TrainingInputMode=File \
+  --role-arn arn:aws:iam::552401576656:role/SageMakerExecutionRole \
+  --input-data-config '[
+    {
+      "ChannelName": "train",
+      "DataSource": {
+        "S3DataSource": {
+          "S3DataType": "S3Prefix",
+          "S3Uri": "s3://codentist-general/datasets/master/",
+          "S3DataDistributionType": "FullyReplicated"
+        }
+      },
+      "ContentType": "application/x-image",
+      "CompressionType": "None",
+      "InputMode": "File"
+    }
+  ]' \
+  --output-data-config '{"S3OutputPath":"s3://codentist-general/output/"}' \
+  --resource-config '{"InstanceType":"ml.g6.12xlarge","InstanceCount":1,"VolumeSizeInGB":50}' \
+  --stopping-condition '{"MaxRuntimeInSeconds":7200}' \
+  --hyper-parameters '{
+    "group": "implants",
+    "n_instances": "10",
+    "lr": "0.0003",
+    "batch_size": "8"
+  }'
