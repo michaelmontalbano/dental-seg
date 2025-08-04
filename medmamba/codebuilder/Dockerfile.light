@@ -11,7 +11,7 @@ COPY requirements.txt ./
 RUN pip3 install -r requirements.txt
 
 # Copy training scripts and wrapper
-COPY train.py train MedMamba.py ./
+COPY train.py train launcher.py MedMamba.py ./
 
 # Make the wrapper executable
 RUN chmod +x train
