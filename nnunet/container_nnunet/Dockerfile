@@ -39,4 +39,4 @@ ENV SAGEMAKER_PROGRAM train
 ENV SAGEMAKER_SUBMIT_DIRECTORY /opt/ml/code
 
 # Add ENTRYPOINT as fallback
-ENTRYPOINT ["python3", "/opt/ml/code/train"]
+ENTRYPOINT ["python3", "/opt/ml/code/train.py"]
