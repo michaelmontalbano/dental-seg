@@ -8,9 +8,13 @@ import os
 import sys
 
 # Set environment variables BEFORE importing nnU-Net modules
-os.environ["nnUNet_raw_data_base"] = "/opt/ml/input/data/nnUNet_raw"
+# CRITICAL: These must be absolute paths
+os.environ["nnUNet_raw"] = "/opt/ml/input/data/nnUNet_raw"
 os.environ["nnUNet_preprocessed"] = "/opt/ml/input/data/nnUNet_preprocessed" 
 os.environ["nnUNet_results"] = "/opt/ml/model"
+
+# IMPORTANT: Also set the base directory environment variable
+os.environ["nnUNet_raw_data_base"] = "/opt/ml/input/data/nnUNet_raw"
 
 import argparse
 import json
@@ -27,7 +31,7 @@ from sagemaker_training import environment
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-def explore_directory(path, max_depth=3, current_depth=0):
+def explore_directory(path, max_depth=3, current_depth=0, max_items_to_show=10):
     """Recursively explore directory structure"""
     if current_depth > max_depth:
         return
@@ -43,13 +47,36 @@ def explore_directory(path, max_depth=3, current_depth=0):
             print(f"{'  ' * current_depth}📄 {path.name} ({size:,} bytes)")
             return
             
-        print(f"{'  ' * current_depth}📁 {path}/ {len(list(path.iterdir()))} items")
+        items_list = list(path.iterdir())
+        num_items = len(items_list)
+        print(f"{'  ' * current_depth}📁 {path}/ {num_items} items")
         
-        # Sort items: directories first, then files
-        items = sorted(path.iterdir(), key=lambda x: (x.is_file(), x.name))
-        
-        for item in items:
-            explore_directory(item, max_depth, current_depth + 1)
+        # If there are too many items, show a summary instead
+        if num_items > max_items_to_show:
+            # Count files and directories
+            files = [item for item in items_list if item.is_file()]
+            dirs = [item for item in items_list if item.is_dir()]
+            
+            print(f"{'  ' * (current_depth + 1)}📊 Summary: {len(files)} files, {len(dirs)} directories")
+            
+            # Show first few files as examples
+            if files:
+                print(f"{'  ' * (current_depth + 1)}📄 Sample files:")
+                for file in files[:3]:
+                    size = file.stat().st_size
+                    print(f"{'  ' * (current_depth + 2)}• {file.name} ({size:,} bytes)")
+                if len(files) > 3:
+                    print(f"{'  ' * (current_depth + 2)}... and {len(files) - 3} more files")
+            
+            # Explore subdirectories
+            for dir_item in dirs:
+                explore_directory(dir_item, max_depth, current_depth + 1, max_items_to_show)
+        else:
+            # Sort items: directories first, then files
+            items = sorted(items_list, key=lambda x: (x.is_file(), x.name))
+            
+            for item in items:
+                explore_directory(item, max_depth, current_depth + 1, max_items_to_show)
             
     except PermissionError:
         print(f"{'  ' * current_depth}🔒 {path} (permission denied)")
@@ -101,27 +128,53 @@ class nnUNetSageMakerTrainer:
         # Set additional environment variables
         os.environ['nnUNet_n_proc_DA'] = str(self.args.num_workers_dataloader)
         
-        logger.info(f"nnUNet_raw_data_base: {os.environ['nnUNet_raw_data_base']}")
-        logger.info(f"nnUNet_preprocessed: {os.environ['nnUNet_preprocessed']}")
+        # Verify that the dataset directory exists in the expected location
+        expected_dataset_path = Path(os.environ['nnUNet_raw']) / self.args.task_name
+        if not expected_dataset_path.exists():
+            logger.error(f"Dataset not found at expected path: {expected_dataset_path}")
+            # Try to find it in the input data directory
+            alt_path = Path(self.args.data_dir) / self.args.task_name
+            if alt_path.exists():
+                logger.info(f"Found dataset at alternative path: {alt_path}")
+                # Create symlink to expected location
+                expected_dataset_path.symlink_to(alt_path)
+                logger.info(f"Created symlink: {expected_dataset_path} -> {alt_path}")
+            else:
+                raise FileNotFoundError(f"Dataset {self.args.task_name} not found in either {expected_dataset_path} or {alt_path}")
+        
+        logger.info(f"nnUNet_raw: {os.environ['nnUNet_raw']}")
+        logger.info(f"nnUNet_preprocessed: {os.environ['nnUNet_preprocessed']}")  
         logger.info(f"nnUNet_results: {os.environ['nnUNet_results']}")
+        logger.info(f"Dataset path verified: {expected_dataset_path}")
         
     def prepare_dataset(self):
         """Prepare dataset structure for nnU-Net"""
-        # Check if dataset already exists in correct structure
-        dataset_dir = Path(os.environ['nnUNet_raw_data_base']) / self.args.task_name
+        # The dataset should already be in the correct location from setup_paths()
+        dataset_dir = Path(os.environ['nnUNet_raw']) / self.args.task_name
         
         if dataset_dir.exists():
-            logger.info(f"Dataset already exists at {dataset_dir}")
+            logger.info(f"Dataset confirmed at {dataset_dir}")
+            
+            # Verify required subdirectories exist
+            required_dirs = ['imagesTr', 'labelsTr']
+            for req_dir in required_dirs:
+                dir_path = dataset_dir / req_dir
+                if not dir_path.exists():
+                    logger.warning(f"Required directory missing: {dir_path}")
+                else:
+                    num_files = len(list(dir_path.glob('*')))
+                    logger.info(f"Found {num_files} files in {req_dir}")
+            
+            # Check for dataset.json
+            dataset_json = dataset_dir / 'dataset.json'
+            if dataset_json.exists():
+                logger.info(f"Found dataset.json: {dataset_json}")
+            else:
+                logger.warning(f"dataset.json not found at {dataset_json}")
+            
             return
             
-        # If not, try to find it in the data directory
-        source_dataset_dir = Path(self.args.data_dir) / self.args.task_name
-        if source_dataset_dir.exists():
-            logger.info(f"Found dataset at {source_dataset_dir}, copying to {dataset_dir}")
-            shutil.copytree(source_dataset_dir, dataset_dir)
-            return
-            
-        logger.error(f"Could not find dataset {self.args.task_name} in {self.args.data_dir}")
+        logger.error(f"Dataset preparation failed - could not locate {self.args.task_name}")
         raise FileNotFoundError(f"Dataset {self.args.task_name} not found")
                     
     def run_preprocessing(self):
@@ -132,6 +185,11 @@ class nnUNetSageMakerTrainer:
             
         logger.info("Running nnU-Net preprocessing...")
         
+        # Double-check environment variables before preprocessing
+        logger.info("Environment check before preprocessing:")
+        for key in ['nnUNet_raw', 'nnUNet_preprocessed', 'nnUNet_results']:
+            logger.info(f"  {key}: {os.environ.get(key, 'NOT SET')}")
+        
         # Use nnU-Net CLI command directly
         import subprocess
         cmd = [
@@ -141,62 +199,90 @@ class nnUNetSageMakerTrainer:
         ]
         
         logger.info(f"Running command: {' '.join(cmd)}")
-        result = subprocess.run(cmd, capture_output=True, text=True)
+        
+        # Run with environment variables explicitly passed
+        env = os.environ.copy()
+        result = subprocess.run(cmd, capture_output=True, text=True, env=env)
         
         if result.returncode != 0:
-            logger.error(f"Preprocessing failed: {result.stderr}")
+            logger.error(f"Preprocessing failed with return code {result.returncode}")
+            logger.error(f"STDERR: {result.stderr}")
+            logger.error(f"STDOUT: {result.stdout}")
             raise RuntimeError(f"Preprocessing failed: {result.stderr}")
         else:
             logger.info("Preprocessing completed successfully")
+            logger.info(f"STDOUT: {result.stdout}")
         
     def train(self):
-        """Run nnU-Net training using CLI command (following the guide)"""
+        """Run nnU-Net training using CLI command"""
         logger.info(f"Starting nnU-Net training for {self.args.task_name}")
-        
-        # Extract dataset ID from task name
-        dataset_id = int(self.args.task_name.split('_')[0].replace('Dataset', ''))
         
         # Use nnU-Net CLI command as per the guide
         import subprocess
         cmd = [
             "nnUNetv2_train",
-            str(dataset_id),
+            str(self.args.dataset_id),
             self.args.configuration,
             "all",  # Use all data (no cross-validation) as per guide
             "-tr", "nnUNetTrainer"  # Using default trainer
         ]
         
         logger.info(f"Running training command: {' '.join(cmd)}")
-        result = subprocess.run(cmd, capture_output=True, text=True)
+        
+        # Run with environment variables explicitly passed
+        env = os.environ.copy()
+        result = subprocess.run(cmd, capture_output=True, text=True, env=env)
         
         if result.returncode != 0:
-            logger.error(f"Training failed: {result.stderr}")
+            logger.error(f"Training failed with return code {result.returncode}")
+            logger.error(f"STDERR: {result.stderr}")
+            logger.error(f"STDOUT: {result.stdout}")
             raise RuntimeError(f"Training failed: {result.stderr}")
         else:
             logger.info("Training completed successfully")
+            logger.info(f"STDOUT: {result.stdout}")
             
     def save_model_artifacts(self):
         """Save model artifacts for SageMaker model registry"""
         logger.info("Saving model artifacts...")
         
-        # Copy best checkpoints to model directory
-        results_dir = Path(os.environ['nnUNet_results']) / self.args.task_name
-        trainer_dir = results_dir / f"{self.args.trainer_class_name}__{self.args.plans_name}__{self.args.configuration}"
+        # The trained models should be in nnUNet_results
+        results_dir = Path(os.environ['nnUNet_results']) / "nnUNet" / self.args.configuration / self.args.task_name / f"{self.args.trainer_class_name}__{self.args.plans_name}"
         
-        for fold in self.args.folds:
-            fold_dir = trainer_dir / f"fold_{fold}"
-            if fold_dir.exists():
-                # Copy checkpoint files
-                for checkpoint in ['checkpoint_best.pth', 'checkpoint_final.pth']:
-                    src = fold_dir / checkpoint
-                    if src.exists():
-                        dst = Path(self.args.model_dir) / f"fold_{fold}_{checkpoint}"
-                        shutil.copy2(src, dst)
-                        
-        # Copy plans and dataset fingerprint
-        plans_file = results_dir / f"{self.args.plans_name}.json"
-        if plans_file.exists():
-            shutil.copy2(plans_file, Path(self.args.model_dir) / "plans.json")
+        if not results_dir.exists():
+            # Try alternative path structure
+            alt_results_dir = Path(os.environ['nnUNet_results']) 
+            logger.warning(f"Standard results dir not found: {results_dir}")
+            logger.info(f"Looking for results in: {alt_results_dir}")
+            
+            # Find any .pth files
+            pth_files = list(alt_results_dir.rglob("*.pth"))
+            if pth_files:
+                logger.info(f"Found model files: {[str(f) for f in pth_files]}")
+                for pth_file in pth_files:
+                    dst = Path(self.args.model_dir) / pth_file.name
+                    shutil.copy2(pth_file, dst)
+                    logger.info(f"Copied {pth_file} -> {dst}")
+            
+        else:
+            # Copy from standard location
+            for fold in self.args.folds:
+                fold_dir = results_dir / f"fold_{fold}"
+                if fold_dir.exists():
+                    # Copy checkpoint files
+                    for checkpoint in ['checkpoint_best.pth', 'checkpoint_final.pth']:
+                        src = fold_dir / checkpoint
+                        if src.exists():
+                            dst = Path(self.args.model_dir) / f"fold_{fold}_{checkpoint}"
+                            shutil.copy2(src, dst)
+                            logger.info(f"Copied {src} -> {dst}")
+                            
+        # Copy any plans files
+        plans_files = list(Path(os.environ['nnUNet_results']).rglob("*Plans*.json"))
+        for plans_file in plans_files:
+            dst = Path(self.args.model_dir) / plans_file.name
+            shutil.copy2(plans_file, dst)
+            logger.info(f"Copied plans: {plans_file} -> {dst}")
             
         # Save metadata
         metadata = {
@@ -210,6 +296,8 @@ class nnUNetSageMakerTrainer:
         
         with open(Path(self.args.model_dir) / 'metadata.json', 'w') as f:
             json.dump(metadata, f, indent=2)
+        
+        logger.info("Model artifacts saved successfully")
 
 def parse_args():
     parser = argparse.ArgumentParser(description='nnU-Net training for SageMaker')
