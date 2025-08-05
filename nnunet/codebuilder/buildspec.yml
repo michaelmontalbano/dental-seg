@@ -1,31 +1,45 @@
-version: 0.2
 
-env:
-  variables:
-    IMAGE_NAME: nnunet
-    IMAGE_TAG: latest
-    ECR_REPO: nnunet
-    AWS_REGION: us-west-2
-    AWS_ACCOUNT_ID: 552401576656
-    REPO_URI: 552401576656.dkr.ecr.us-west-2.amazonaws.com/nnunet
+name: Build nnU-Net Container
 
-phases:
-  pre_build:
-    commands:
-      - echo Logging in to Amazon ECR...
-      - aws ecr get-login-password --region $AWS_REGION | docker login --username AWS --password-stdin $REPO_URI
-      - cd medmamba/codebuilder
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'nnunet/container_nnunet/**'
+  workflow_dispatch:
 
-  build:
-    commands:
-      - echo Building the Docker image...
-      - docker build -f Dockerfile.light -t $IMAGE_NAME:$IMAGE_TAG .
-      - docker tag $IMAGE_NAME:$IMAGE_TAG $REPO_URI:$IMAGE_TAG
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-  post_build:
-    commands:
-      - echo Pushing the Docker image to ECR...
-      - docker push $REPO_URI:$IMAGE_TAG
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-west-2
 
-artifacts:
-  files: []
+      - name: Login to Amazon ECR
+        id: login-ecr
+        uses: aws-actions/amazon-ecr-login@v2
+
+      - name: Build, tag, and push image to Amazon ECR
+        env:
+          ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
+          ECR_REPOSITORY: nnunet
+          IMAGE_TAG: latest
+        run: |
+          cd nnunet/container_nnunet
+          
+          # Build the Docker image
+          docker build -f Dockerfile -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
+          
+          # Push the image to ECR
+          docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
+          
+          echo "✅ Image pushed successfully: $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG"
