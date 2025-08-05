@@ -1,9 +1,3 @@
-#!/usr/bin/env python3
-"""
-nnU-Net training script for dental segmentation
-Handles SageMaker integration and nnU-Net API
-v1
-"""
 
 import os
 import sys
@@ -19,12 +13,10 @@ from nnunetv2.run.run_training import run_training
 from nnunetv2.utilities.find_class_by_name import recursive_find_python_class
 from sagemaker_training import environment
 
-import os
-
-os.environ["nnUNet_raw_data_base"] = os.getenv("nnUNet_raw_data_base", "/opt/ml/input/data/nnUNet_raw")
-os.environ["nnUNet_preprocessed"] = os.getenv("nnUNet_preprocessed", "/opt/ml/input/data/nnUNet_preprocessed")
-os.environ["nnUNet_results"] = os.getenv("nnUNet_results", "/opt/ml/model")  # Fixed: was "NNUNet_results"
-
+# Set environment variables first thing
+os.environ["nnUNet_raw_data_base"] = "/opt/ml/input/data/nnUNet_raw"
+os.environ["nnUNet_preprocessed"] = "/tmp/nnUNet_preprocessed" 
+os.environ["nnUNet_results"] = "/opt/ml/model"
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -55,7 +47,6 @@ class nnUNetSageMakerTrainer:
         source_dir = Path(self.args.data_dir)
         target_dir = Path(os.environ['nnUNet_raw_data_base']) / self.args.task_name
 
-        
         if not target_dir.exists():
             logger.info(f"Setting up dataset at {target_dir}")
             target_dir.mkdir(parents=True, exist_ok=True)
@@ -162,14 +153,14 @@ def parse_args():
     
     # Data paths
     parser.add_argument('--data-dir', type=str, 
-                        default=os.environ.get('SM_CHANNEL_TRAINING', '/opt/ml/input/data/training'))
+                        default=os.environ.get('SM_CHANNEL_NNUNET_RAW', '/opt/ml/input/data/nnUNet_raw'))
     parser.add_argument('--model-dir', type=str,
                         default=os.environ.get('SM_MODEL_DIR', '/opt/ml/model'))
     
-    # nnU-Net specific arguments
-    parser.add_argument('--task-name', type=str, required=True,
+    # nnU-Net specific arguments - WITH DEFAULTS
+    parser.add_argument('--task-name', type=str, default='Dataset300_BoneLoss',
                         help='Task name (e.g., Task101_DentalCBCT)')
-    parser.add_argument('--dataset-id', type=int, default=101,
+    parser.add_argument('--dataset-id', type=int, default=300,
                         help='Dataset ID number')
     parser.add_argument('--configuration', type=str, default='3d_fullres',
                         choices=['2d', '3d_fullres', '3d_lowres', '3d_cascade_fullres'])
@@ -205,7 +196,7 @@ def parse_args():
                         help='Disable checkpoint saving')
     parser.add_argument('--val-with-best', action='store_true',
                         help='Validate with best checkpoint')
-    parser.add_argument('--skip-preprocessing', action='store_true',
+    parser.add_argument('--skip-preprocessing', action='store_true', default=True,
                         help='Skip preprocessing step')
     
     # Distributed training
@@ -221,7 +212,7 @@ def parse_args():
 def main():
     args = parse_args()
     print("Received CLI args:", sys.argv)
-
+    print("Parsed args:", args)
     
     logger.info(f"Starting nnU-Net training with args: {args}")
     
