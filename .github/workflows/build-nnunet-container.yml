@@ -1,30 +1,48 @@
-name: Trigger CodeBuild from GitHub
+name: Build and Push nnU-Net Container
 
 on:
   push:
     branches:
       - main
+    paths:
+      - 'nnunet/container_nnunet/**'
   workflow_dispatch:
 
 jobs:
-  codebuild:
+  build-and-push:
     runs-on: ubuntu-latest
-
+    
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
       - name: Configure AWS credentials
-        uses: aws-actions/configure-aws-credentials@v1
+        uses: aws-actions/configure-aws-credentials@v4
         with:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-west-2
 
-      - name: Trigger CodeBuild build
-        uses: aws-actions/aws-codebuild-run-build@v1
-        with:
-          project-name: nnunet-build
-          disable-source-override: true
-          buildspec-override: nnunet/codebuilder/buildspec.yml
+      - name: Login to Amazon ECR
+        id: login-ecr
+        uses: aws-actions/amazon-ecr-login@v2
 
+      - name: Build, tag, and push image to Amazon ECR
+        env:
+          ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
+          ECR_REPOSITORY: nnunet
+          IMAGE_TAG: ${{ github.sha }}
+        run: |
+          cd nnunet/container_nnunet
+          
+          echo "Building Docker image..."
+          docker build -f Dockerfile -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
+          docker tag $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG $ECR_REGISTRY/$ECR_REPOSITORY:latest
+          
+          echo "Pushing to ECR..."
+          docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
+          docker push $ECR_REGISTRY/$ECR_REPOSITORY:latest
+          
+          echo "✅ Successfully pushed:"
+          echo "  - $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG"
+          echo "  - $ECR_REGISTRY/$ECR_REPOSITORY:latest"
