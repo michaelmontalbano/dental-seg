@@ -20,6 +20,7 @@ import argparse
 import json
 import logging
 import shutil
+import subprocess
 from pathlib import Path
 from typing import Dict, Any, Optional
 
@@ -165,10 +166,11 @@ class nnUNetSageMakerTrainer:
                     num_files = len(list(dir_path.glob('*')))
                     logger.info(f"Found {num_files} files in {req_dir}")
             
-            # Check for dataset.json
+            # Check and fix dataset.json
             dataset_json = dataset_dir / 'dataset.json'
             if dataset_json.exists():
                 logger.info(f"Found dataset.json: {dataset_json}")
+                self.fix_dataset_json(dataset_json)
             else:
                 logger.warning(f"dataset.json not found at {dataset_json}")
             
@@ -176,6 +178,51 @@ class nnUNetSageMakerTrainer:
             
         logger.error(f"Dataset preparation failed - could not locate {self.args.task_name}")
         raise FileNotFoundError(f"Dataset {self.args.task_name} not found")
+    
+    def fix_dataset_json(self, dataset_json_path):
+        """Fix dataset.json by adding missing required keys for nnU-Net"""
+        try:
+            # Load existing dataset.json
+            with open(dataset_json_path, 'r') as f:
+                dataset_config = json.load(f)
+            
+            logger.info(f"Original dataset.json keys: {list(dataset_config.keys())}")
+            
+            # Check if required keys are missing
+            required_keys = ['channel_names', 'file_ending']
+            missing_keys = [key for key in required_keys if key not in dataset_config]
+            
+            if not missing_keys:
+                logger.info("dataset.json already has all required keys")
+                return
+            
+            # Create backup
+            backup_path = dataset_json_path.with_suffix('.json.backup')
+            shutil.copy2(dataset_json_path, backup_path)
+            logger.info(f"Created backup: {backup_path}")
+            
+            # Add missing required keys
+            if 'channel_names' not in dataset_config:
+                # For dental radiographs/X-rays, typically single-channel (grayscale) images
+                dataset_config['channel_names'] = {
+                    "0": "XR"  # X-ray/Radiograph modality
+                }
+                logger.info(f"Added channel_names: {dataset_config['channel_names']}")
+            
+            if 'file_ending' not in dataset_config:
+                # Standard NIfTI compressed format
+                dataset_config['file_ending'] = ".nii.gz"
+                logger.info(f"Added file_ending: {dataset_config['file_ending']}")
+            
+            # Write back the fixed dataset.json
+            with open(dataset_json_path, 'w') as f:
+                json.dump(dataset_config, f, indent=2)
+            
+            logger.info(f"✅ Successfully updated dataset.json with keys: {list(dataset_config.keys())}")
+            
+        except Exception as e:
+            logger.error(f"Failed to fix dataset.json: {e}")
+            raise
                     
     def run_preprocessing(self):
         """Run nnU-Net preprocessing pipeline"""
@@ -191,14 +238,13 @@ class nnUNetSageMakerTrainer:
             logger.info(f"  {key}: {os.environ.get(key, 'NOT SET')}")
         
         # Use nnU-Net CLI command directly
-        # import subprocess
-        # cmd = [
-        #     "nnUNetv2_plan_and_preprocess", 
-        #     "-d", str(self.args.dataset_id),
-        #     "--verify_dataset_integrity"
-        # ]
+        cmd = [
+            "nnUNetv2_plan_and_preprocess", 
+            "-d", str(self.args.dataset_id),
+            # "--verify_dataset_integrity"  # REMOVED - causing issues with train/test split
+        ]
         
-        # logger.info(f"Running command: {' '.join(cmd)}")
+        logger.info(f"Running command: {' '.join(cmd)}")
         
         # Run with environment variables explicitly passed
         env = os.environ.copy()
@@ -218,7 +264,6 @@ class nnUNetSageMakerTrainer:
         logger.info(f"Starting nnU-Net training for {self.args.task_name}")
         
         # Use nnU-Net CLI command as per the guide
-        import subprocess
         cmd = [
             "nnUNetv2_train",
             str(self.args.dataset_id),
