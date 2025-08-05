@@ -1,6 +1,17 @@
+#!/usr/bin/env python3
+"""
+nnU-Net training script for dental segmentation
+Self-contained with defaults - no external hyperparameters needed
+"""
 
 import os
 import sys
+
+# Set environment variables BEFORE importing nnU-Net modules
+os.environ["nnUNet_raw_data_base"] = "/opt/ml/input/data/nnUNet_raw"
+os.environ["nnUNet_preprocessed"] = "/opt/ml/input/data/nnUNet_preprocessed" 
+os.environ["nnUNet_results"] = "/opt/ml/model"
+
 import argparse
 import json
 import logging
@@ -12,11 +23,6 @@ import torch
 from nnunetv2.run.run_training import run_training
 from nnunetv2.utilities.find_class_by_name import recursive_find_python_class
 from sagemaker_training import environment
-
-# Set environment variables first thing
-os.environ["nnUNet_raw_data_base"] = "/opt/ml/input/data/nnUNet_raw"
-os.environ["nnUNet_preprocessed"] = "/tmp/nnUNet_preprocessed" 
-os.environ["nnUNet_results"] = "/opt/ml/model"
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -31,37 +37,35 @@ class nnUNetSageMakerTrainer:
         
     def setup_paths(self):
         """Configure nnU-Net paths for SageMaker environment"""
-        # Update environment variables for nnU-Net
-        os.environ['nnUNet_raw_data_base'] = self.args.data_dir
-        os.environ['nnUNet_preprocessed'] = '/tmp/nnUNet_preprocessed'
-        os.environ['nnUNet_results'] = self.args.model_dir
-        os.environ['nnUNet_n_proc_DA'] = str(self.args.num_workers_dataloader)
-        
-        # Create directories if they don't exist
+        # Ensure directories exist
         Path(os.environ['nnUNet_preprocessed']).mkdir(parents=True, exist_ok=True)
         Path(os.environ['nnUNet_results']).mkdir(parents=True, exist_ok=True)
         
+        # Set additional environment variables
+        os.environ['nnUNet_n_proc_DA'] = str(self.args.num_workers_dataloader)
+        
+        logger.info(f"nnUNet_raw_data_base: {os.environ['nnUNet_raw_data_base']}")
+        logger.info(f"nnUNet_preprocessed: {os.environ['nnUNet_preprocessed']}")
+        logger.info(f"nnUNet_results: {os.environ['nnUNet_results']}")
+        
     def prepare_dataset(self):
         """Prepare dataset structure for nnU-Net"""
-        # Copy data from S3 to expected nnU-Net structure
-        source_dir = Path(self.args.data_dir)
-        target_dir = Path(os.environ['nnUNet_raw_data_base']) / self.args.task_name
-
-        if not target_dir.exists():
-            logger.info(f"Setting up dataset at {target_dir}")
-            target_dir.mkdir(parents=True, exist_ok=True)
+        # Check if dataset already exists in correct structure
+        dataset_dir = Path(os.environ['nnUNet_raw_data_base']) / self.args.task_name
+        
+        if dataset_dir.exists():
+            logger.info(f"Dataset already exists at {dataset_dir}")
+            return
             
-            # Copy dataset.json
-            dataset_json = source_dir / 'dataset.json'
-            if dataset_json.exists():
-                shutil.copy2(dataset_json, target_dir / 'dataset.json')
+        # If not, try to find it in the data directory
+        source_dataset_dir = Path(self.args.data_dir) / self.args.task_name
+        if source_dataset_dir.exists():
+            logger.info(f"Found dataset at {source_dataset_dir}, copying to {dataset_dir}")
+            shutil.copytree(source_dataset_dir, dataset_dir)
+            return
             
-            # Copy images and labels
-            for subdir in ['imagesTr', 'labelsTr', 'imagesTs']:
-                src = source_dir / subdir
-                dst = target_dir / subdir
-                if src.exists():
-                    shutil.copytree(src, dst, dirs_exist_ok=True)
+        logger.error(f"Could not find dataset {self.args.task_name} in {self.args.data_dir}")
+        raise FileNotFoundError(f"Dataset {self.args.task_name} not found")
                     
     def run_preprocessing(self):
         """Run nnU-Net preprocessing pipeline"""
@@ -70,17 +74,23 @@ class nnUNetSageMakerTrainer:
             return
             
         logger.info("Running nnU-Net preprocessing...")
-        from nnunetv2.experiment_planning.plan_and_preprocess import plan_and_preprocess_entry
         
-        plan_and_preprocess_entry(
-            dataset_id=self.args.dataset_id,
-            preprocessor_name=self.args.preprocessor_name,
-            plans_name=self.args.plans_name,
-            gpu_memory_target=self.args.gpu_memory_target,
-            preprocessing_api_kwargs=None,
-            overwrite_target_spacing=None,
-            overwrite_plans_name=None
-        )
+        # Use nnU-Net CLI command directly
+        import subprocess
+        cmd = [
+            "nnUNetv2_plan_and_preprocess", 
+            "-d", str(self.args.dataset_id),
+            "--verify_dataset_integrity"
+        ]
+        
+        logger.info(f"Running command: {' '.join(cmd)}")
+        result = subprocess.run(cmd, capture_output=True, text=True)
+        
+        if result.returncode != 0:
+            logger.error(f"Preprocessing failed: {result.stderr}")
+            raise RuntimeError(f"Preprocessing failed: {result.stderr}")
+        else:
+            logger.info("Preprocessing completed successfully")
         
     def train(self):
         """Run nnU-Net training"""
@@ -196,7 +206,7 @@ def parse_args():
                         help='Disable checkpoint saving')
     parser.add_argument('--val-with-best', action='store_true',
                         help='Validate with best checkpoint')
-    parser.add_argument('--skip-preprocessing', action='store_true', default=True,
+    parser.add_argument('--skip-preprocessing', action='store_true', default=False,
                         help='Skip preprocessing step')
     
     # Distributed training
