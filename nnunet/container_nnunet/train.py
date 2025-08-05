@@ -191,14 +191,14 @@ class nnUNetSageMakerTrainer:
             logger.info(f"  {key}: {os.environ.get(key, 'NOT SET')}")
         
         # Use nnU-Net CLI command directly
-        import subprocess
-        cmd = [
-            "nnUNetv2_plan_and_preprocess", 
-            "-d", str(self.args.dataset_id),
-            "--verify_dataset_integrity"
-        ]
+        # import subprocess
+        # cmd = [
+        #     "nnUNetv2_plan_and_preprocess", 
+        #     "-d", str(self.args.dataset_id),
+        #     "--verify_dataset_integrity"
+        # ]
         
-        logger.info(f"Running command: {' '.join(cmd)}")
+        # logger.info(f"Running command: {' '.join(cmd)}")
         
         # Run with environment variables explicitly passed
         env = os.environ.copy()
@@ -313,7 +313,7 @@ def parse_args():
                         help='Task name (e.g., Task101_DentalCBCT)')
     parser.add_argument('--dataset-id', type=int, default=300,
                         help='Dataset ID number')
-    parser.add_argument('--configuration', type=str, default='3d_fullres',
+    parser.add_argument('--configuration', type=str, default='2d',
                         choices=['2d', '3d_fullres', '3d_lowres', '3d_cascade_fullres'])
     parser.add_argument('--folds', type=int, nargs='+', default=[0],
                         help='Which folds to train')
