@@ -1,0 +1,10 @@
+
+#!/bin/bash
+# SageMaker train wrapper script for nnU-Net
+
+set -e
+
+echo "Starting nnU-Net training via SageMaker train wrapper..."
+
+# Execute the main training script
+exec python3 /opt/ml/code/train.py "$@"
