@@ -27,6 +27,63 @@ from sagemaker_training import environment
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+def explore_directory(path, max_depth=3, current_depth=0):
+    """Recursively explore directory structure"""
+    if current_depth > max_depth:
+        return
+        
+    try:
+        path = Path(path)
+        if not path.exists():
+            print(f"{'  ' * current_depth}❌ {path} (does not exist)")
+            return
+            
+        if path.is_file():
+            size = path.stat().st_size
+            print(f"{'  ' * current_depth}📄 {path.name} ({size:,} bytes)")
+            return
+            
+        print(f"{'  ' * current_depth}📁 {path}/ {len(list(path.iterdir()))} items")
+        
+        # Sort items: directories first, then files
+        items = sorted(path.iterdir(), key=lambda x: (x.is_file(), x.name))
+        
+        for item in items:
+            explore_directory(item, max_depth, current_depth + 1)
+            
+    except PermissionError:
+        print(f"{'  ' * current_depth}🔒 {path} (permission denied)")
+    except Exception as e:
+        print(f"{'  ' * current_depth}⚠️  {path} (error: {e})")
+
+def print_filesystem_debug():
+    """Print complete filesystem exploration"""
+    print("=" * 60)
+    print("🔍 FILESYSTEM EXPLORATION")
+    print("=" * 60)
+    
+    # Key directories to explore
+    directories_to_check = [
+        "/opt/ml/input/data",
+        "/opt/ml/model", 
+        "/tmp",
+        "/opt/ml/input",
+    ]
+
+    for directory in directories_to_check:
+        print(f"\n📂 Exploring: {directory}")
+        explore_directory(directory, max_depth=4)
+
+    print(f"\n🌍 ENVIRONMENT VARIABLES:")
+    for key, value in os.environ.items():
+        if 'nnU' in key or 'SM_' in key:
+            print(f"  {key}: {value}")
+
+    print(f"\n📍 CURRENT WORKING DIRECTORY: {os.getcwd()}")
+    explore_directory(os.getcwd(), max_depth=2)
+    
+    print("=" * 60)
+
 class nnUNetSageMakerTrainer:
     """Wrapper for nnU-Net training in SageMaker environment"""
     
@@ -93,34 +150,30 @@ class nnUNetSageMakerTrainer:
             logger.info("Preprocessing completed successfully")
         
     def train(self):
-        """Run nnU-Net training"""
+        """Run nnU-Net training using CLI command (following the guide)"""
         logger.info(f"Starting nnU-Net training for {self.args.task_name}")
         
-        # Configure distributed training if multiple GPUs
-        if self.args.distributed and torch.cuda.device_count() > 1:
-            os.environ['MASTER_ADDR'] = 'localhost'
-            os.environ['MASTER_PORT'] = '12355'
-            
-        # Run training for specified fold(s)
-        for fold in self.args.folds:
-            logger.info(f"Training fold {fold}")
-            
-            run_training(
-                dataset_name_or_id=self.args.task_name,
-                configuration=self.args.configuration,
-                fold=fold,
-                trainer_class_name=self.args.trainer_class_name,
-                plans_identifier=self.args.plans_name,
-                pretrained_weights=self.args.pretrained_weights,
-                num_gpus=self.args.num_gpus,
-                use_compressed_data=self.args.use_compressed_data,
-                export_validation_probabilities=self.args.export_validation_probabilities,
-                continue_training=self.args.continue_training,
-                only_run_validation=self.args.only_run_validation,
-                disable_checkpointing=self.args.disable_checkpointing,
-                val_with_best=self.args.val_with_best,
-                device=torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-            )
+        # Extract dataset ID from task name
+        dataset_id = int(self.args.task_name.split('_')[0].replace('Dataset', ''))
+        
+        # Use nnU-Net CLI command as per the guide
+        import subprocess
+        cmd = [
+            "nnUNetv2_train",
+            str(dataset_id),
+            self.args.configuration,
+            "all",  # Use all data (no cross-validation) as per guide
+            "-tr", "nnUNetTrainer"  # Using default trainer
+        ]
+        
+        logger.info(f"Running training command: {' '.join(cmd)}")
+        result = subprocess.run(cmd, capture_output=True, text=True)
+        
+        if result.returncode != 0:
+            logger.error(f"Training failed: {result.stderr}")
+            raise RuntimeError(f"Training failed: {result.stderr}")
+        else:
+            logger.info("Training completed successfully")
             
     def save_model_artifacts(self):
         """Save model artifacts for SageMaker model registry"""
@@ -220,6 +273,9 @@ def parse_args():
     return parser.parse_args()
 
 def main():
+    # FIRST THING: Print filesystem structure
+    print_filesystem_debug()
+    
     args = parse_args()
     print("Received CLI args:", sys.argv)
     print("Parsed args:", args)
