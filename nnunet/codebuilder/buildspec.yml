@@ -7,7 +7,7 @@ env:
     ECR_REPO: nnunet
     AWS_REGION: us-west-2
     AWS_ACCOUNT_ID: 552401576656
-    REPO_URI: 552401576656.dkr.ecr.us-west-2.amazonaws.com/medmamba
+    REPO_URI: 552401576656.dkr.ecr.us-west-2.amazonaws.com/nnunet
 
 phases:
   pre_build:
