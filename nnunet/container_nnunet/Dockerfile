@@ -1,17 +1,22 @@
 # Multi-stage build for nnU-Net with SageMaker support
 FROM nvidia/cuda:12.1.1-cudnn8-devel-ubuntu22.04 AS builder
 
-# Install system dependencies
+# Install Python 3.10 and tools
 RUN apt-get update && apt-get install -y \
+    python3.10 \
+    python3.10-dev \
+    python3-pip \
     build-essential \
     cmake \
     git \
     wget \
     curl \
-    python3.9 \
-    python3.9-dev \
-    python3-pip \
     && rm -rf /var/lib/apt/lists/*
+
+# Point "python3" and "python" to Python 3.10
+RUN ln -sf /usr/bin/python3.10 /usr/bin/python3 && \
+    ln -sf /usr/bin/python3.10 /usr/bin/python
+
 
 # Install conda for better dependency management
 ENV CONDA_DIR=/opt/conda
