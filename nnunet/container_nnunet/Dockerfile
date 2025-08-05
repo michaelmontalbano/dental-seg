@@ -2,13 +2,15 @@ FROM nvidia/cuda:12.1.1-cudnn8-runtime-ubuntu22.04
 
 WORKDIR /opt/ml/code
 
-# Install Python and essential packages in one layer to reduce size
-RUN apt-get update && \
-    apt-get install -y --no-install-recommends \
-    python3-pip \
+# Add system-level build tools
+RUN apt-get update && apt-get install -y \
+    build-essential \
     python3-dev \
-    wget \
+    gcc \
     && rm -rf /var/lib/apt/lists/*
+
+# Add Python build dependencies
+RUN pip install --upgrade pip setuptools wheel build
 
 # Create python symlink for compatibility
 RUN ln -s /usr/bin/python3 /usr/bin/python
@@ -33,8 +35,8 @@ RUN cp /opt/ml/code/train /usr/local/bin/train && \
     chmod +x /usr/local/bin/train
 
 # Tell SageMaker which Python program to run and where to find it
-ENV SAGEMAKER_PROGRAM sagemaker_launcher_nnunet.py
+ENV SAGEMAKER_PROGRAM train
 ENV SAGEMAKER_SUBMIT_DIRECTORY /opt/ml/code
 
 # Add ENTRYPOINT as fallback
-ENTRYPOINT ["python3", "/opt/ml/code/sagemaker_launcher_nnunet.py"]
+ENTRYPOINT ["python3", "/opt/ml/code/train"]
