@@ -23,7 +23,7 @@ import os
 
 os.environ["nnUNet_raw_data_base"] = os.getenv("nnUNet_raw_data_base", "/opt/ml/input/data/nnUNet_raw")
 os.environ["nnUNet_preprocessed"] = os.getenv("nnUNet_preprocessed", "/opt/ml/input/data/nnUNet_preprocessed")
-os.environ["nnUNet_results"] = os.getenv("NNUNet_results", "/opt/ml/model")
+os.environ["nnUNet_results"] = os.getenv("nnUNet_results", "/opt/ml/model")  # Fixed: was "NNUNet_results"
 
 
 logging.basicConfig(level=logging.INFO)

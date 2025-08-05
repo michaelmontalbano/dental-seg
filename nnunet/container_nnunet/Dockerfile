@@ -1,5 +1,4 @@
 FROM nvidia/cuda:12.1.1-cudnn8-runtime-ubuntu22.04
-
 WORKDIR /opt/ml/code
 
 # Add Python, pip, and build tools
@@ -40,8 +39,10 @@ RUN cp /opt/ml/code/train /usr/local/bin/train && \
 # Tell SageMaker which Python program to run and where to find it
 ENV SAGEMAKER_PROGRAM=train.py
 ENV SAGEMAKER_SUBMIT_DIRECTORY=/opt/ml/code
-ENV NNUNet_raw_data_base=/opt/ml/input/data/nnUNet_raw
-ENV NNUNet_results=/opt/ml/model
+
+# Fixed environment variables (removed extra 'N' from NNUNet)
+ENV nnUNet_raw_data_base=/opt/ml/input/data/nnUNet_raw
+ENV nnUNet_preprocessed=/opt/ml/input/data/nnUNet_preprocessed
+ENV nnUNet_results=/opt/ml/model
 
 # ENTRYPOINT removed to let SageMaker handle argument injection
-
