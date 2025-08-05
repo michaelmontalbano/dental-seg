@@ -40,6 +40,8 @@ RUN cp /opt/ml/code/train /usr/local/bin/train && \
 # Tell SageMaker which Python program to run and where to find it
 ENV SAGEMAKER_PROGRAM=train.py
 ENV SAGEMAKER_SUBMIT_DIRECTORY=/opt/ml/code
+ENV NNUNet_raw_data_base=/opt/ml/input/data/nnUNet_raw
+ENV NNUNet_results=/opt/ml/model
 
-# Add ENTRYPOINT as fallback
-ENTRYPOINT ["python3", "/opt/ml/code/train.py"]
+# ENTRYPOINT removed to let SageMaker handle argument injection
+

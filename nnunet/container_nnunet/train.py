@@ -23,7 +23,7 @@ import os
 
 os.environ["nnUNet_raw_data_base"] = os.getenv("nnUNet_raw_data_base", "/opt/ml/input/data/nnUNet_raw")
 os.environ["nnUNet_preprocessed"] = os.getenv("nnUNet_preprocessed", "/opt/ml/input/data/nnUNet_preprocessed")
-os.environ["RESULTS_FOLDER"] = os.getenv("RESULTS_FOLDER", "/opt/ml/model")
+os.environ["nnUNet_results"] = os.getenv("NNUNet_results", "/opt/ml/model")
 
 
 logging.basicConfig(level=logging.INFO)
@@ -220,6 +220,8 @@ def parse_args():
 
 def main():
     args = parse_args()
+    print("Received CLI args:", sys.argv)
+
     
     logger.info(f"Starting nnU-Net training with args: {args}")
     
