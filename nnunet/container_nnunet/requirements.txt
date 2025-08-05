@@ -1,30 +1,20 @@
+
+# PyTorch with CUDA support
+torch==2.1.0+cu121
+torchvision==0.16.0+cu121
+--extra-index-url https://download.pytorch.org/whl/cu121
+
 # nnU-Net and core dependencies
 nnunetv2==2.2
-torch>=2.0.0
-torchvision>=0.15.0
-
-# Medical imaging libraries
 SimpleITK==2.2.1
 nibabel==4.0.2
-pydicom==2.3.1
 scikit-image==0.20.0
-monai==1.2.0
-
-# Data processing
+pandas==2.0.3
 numpy==1.24.3
 scipy==1.10.1
-pandas==2.0.3
 batchgenerators>=0.25
-
-# Visualization
-matplotlib==3.7.2
-seaborn==0.12.2
 tqdm==4.65.0
+matplotlib==3.7.2
 
-# SageMaker integration
+# SageMaker
 sagemaker-training
-boto3
-
-# Additional utilities
-pyyaml==6.0
-h5py==3.9.0
