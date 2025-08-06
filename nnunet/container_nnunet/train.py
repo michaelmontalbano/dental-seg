@@ -6,6 +6,8 @@ Self-contained with defaults - no external hyperparameters needed
 
 import os
 import sys
+import subprocess  # ← ADD THIS LINE!
+
 
 # Set environment variables BEFORE importing nnU-Net modules
 # CRITICAL: These must be absolute paths
