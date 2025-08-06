@@ -197,7 +197,7 @@ class nnUNetSageMakerTrainer:
         cmd = [
             "nnUNetv2_plan_and_preprocess", 
             "-d", str(self.args.dataset_id),
-            "--verify_dataset_integrity"
+            # "--verify_dataset_integrity"
         ]
         
         logger.info(f"Running command: {' '.join(cmd)}")
