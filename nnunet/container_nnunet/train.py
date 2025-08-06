@@ -202,7 +202,7 @@ class nnUNetSageMakerTrainer:
         
         logger.info(f"Running command: {' '.join(cmd)}")
         
-        Run with environment variables explicitly passed
+        #Run with environment variables explicitly passed
         env = os.environ.copy()
         result = subprocess.run(cmd, capture_output=True, text=True, env=env)
         
