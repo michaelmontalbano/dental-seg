@@ -193,16 +193,16 @@ class nnUNetSageMakerTrainer:
             logger.info(f"  {key}: {os.environ.get(key, 'NOT SET')}")
         
         # Use nnU-Net CLI command directly
-        # import subprocess
-        # cmd = [
-        #     "nnUNetv2_plan_and_preprocess", 
-        #     "-d", str(self.args.dataset_id),
-        #     "--verify_dataset_integrity"
-        # ]
+        import subprocess
+        cmd = [
+            "nnUNetv2_plan_and_preprocess", 
+            "-d", str(self.args.dataset_id),
+            "--verify_dataset_integrity"
+        ]
         
-        # logger.info(f"Running command: {' '.join(cmd)}")
+        logger.info(f"Running command: {' '.join(cmd)}")
         
-        # Run with environment variables explicitly passed
+        Run with environment variables explicitly passed
         env = os.environ.copy()
         result = subprocess.run(cmd, capture_output=True, text=True, env=env)
         
