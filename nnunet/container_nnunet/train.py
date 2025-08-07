@@ -310,9 +310,9 @@ def parse_args():
     parser.add_argument('--model-dir', type=str,
                         default=os.environ.get('SM_MODEL_DIR', '/opt/ml/model'))
         
-    parser.add_argument('--task-name', type=str, default='Dataset307_Restorations',  # Changed from Dataset300_BoneLoss
+    parser.add_argument('--task-name', type=str, default='Dataset308_Margin_Filling',  # Changed from Dataset300_BoneLoss
                         help='Task name (e.g., Task101_DentalCBCT)')
-    parser.add_argument('--dataset-id', type=int, default=307,  # Changed from 300
+    parser.add_argument('--dataset-id', type=int, default=308,  # Changed from 300
                         help='Dataset ID number')
     parser.add_argument('--configuration', type=str, default='2d',
                         choices=['2d', '3d_fullres', '3d_lowres', '3d_cascade_fullres'])
