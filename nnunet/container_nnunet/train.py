@@ -310,7 +310,7 @@ def parse_args():
     parser.add_argument('--model-dir', type=str,
                         default=os.environ.get('SM_MODEL_DIR', '/opt/ml/model'))
         
-    parser.add_argument('--task-name', type=str, default='Dataset301_RCT_Pulp_PARL_Apex',  # Changed from Dataset300_BoneLoss
+    parser.add_argument('--task-name', type=str, default='Dataset302_PrimaryTeeth',  # Changed from Dataset300_BoneLoss
                         help='Task name (e.g., Task101_DentalCBCT)')
     parser.add_argument('--dataset-id', type=int, default=302,  # Changed from 300
                         help='Dataset ID number')
