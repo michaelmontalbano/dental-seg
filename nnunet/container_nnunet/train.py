@@ -310,7 +310,7 @@ def parse_args():
     parser.add_argument('--model-dir', type=str,
                         default=os.environ.get('SM_MODEL_DIR', '/opt/ml/model'))
     parser.add_argument('--task-name', type=str, help='Task name (e.g., Task101_DentalCBCT)')
-    parser.add_argument('--dataset-id', type=int, required=True,  # Changed from 300
+    parser.add_argument('--dataset-id', type=int, default=300,  # Changed from 300
                         help='Dataset ID number')
     parser.add_argument('--configuration', type=str, default='2d',
                         choices=['2d', '3d_fullres', '3d_lowres', '3d_cascade_fullres'])
