@@ -309,10 +309,8 @@ def parse_args():
                         default=os.environ.get('SM_CHANNEL_NNUNET_RAW', '/opt/ml/input/data/nnUNet_raw'))
     parser.add_argument('--model-dir', type=str,
                         default=os.environ.get('SM_MODEL_DIR', '/opt/ml/model'))
-        
-    parser.add_argument('--task-name', type=str, default='Dataset306_PrimaryTeeth',
-                        help='Task name (e.g., Task101_DentalCBCT)')
-    parser.add_argument('--dataset-id', type=int, default=306,  # Changed from 300
+    parser.add_argument('--task-name', type=str, help='Task name (e.g., Task101_DentalCBCT)')
+    parser.add_argument('--dataset-id', type=int, required=True,  # Changed from 300
                         help='Dataset ID number')
     parser.add_argument('--configuration', type=str, default='2d',
                         choices=['2d', '3d_fullres', '3d_lowres', '3d_cascade_fullres'])
@@ -358,8 +356,22 @@ def parse_args():
     # Dental segmentation specific
     parser.add_argument('--disable-lr-mirroring', action='store_true',
                         help='Disable left-right mirroring for dental data')
+    args = parser.parse_args()
+
+    if args.task_name is None:
+        dataset_map = {
+            "300": 'Dataset300_BoneLoss',
+            "301": 'Dataset301_CoreAnatomicalStructures',
+            "302": 'Dataset302_ImplantFeatures',
+            "303": "Dataset303_ClinicalTreatmentPathology",
+            "304": "Dataset304_SpecializedClasses",
+            "305": "Dataset305_AdultTeeth",
+            "306": "Dataset306_PrimaryTeeth",
+            "307": "Dataset307_ToothSurfacesBoundaries",
+        }
+        args.task_name = dataset_map.get(str(args.dataset_id))
     
-    return parser.parse_args()
+    return args
 
 def main():
     # FIRST THING: Print filesystem structure

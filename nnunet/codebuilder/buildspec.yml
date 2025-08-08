@@ -1,22 +1,29 @@
-
-name: Build nnU-Net Container
+name: Build nnU-Net Training Containers
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
     paths:
       - 'nnunet/container_nnunet/**'
-  workflow_dispatch:
 
 jobs:
   build-and-push:
     runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        dataset:
+          - {id: 300, name: "BoneLoss"}
+          - {id: 301, name: "CoreAnatomicalStructures"}
+          - {id: 302, name: "ImplantFeatures"}
+          - {id: 305, name: "AdultTeeth"}
+          - {id: 307, name: "ToothSurfacesBoundaries"}
     
     steps:
-      - name: Checkout repository
+      - name: Checkout
         uses: actions/checkout@v4
-
+        
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v4
         with:
@@ -24,22 +31,29 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-west-2
 
-      - name: Login to Amazon ECR
+      - name: Login to ECR
         id: login-ecr
         uses: aws-actions/amazon-ecr-login@v2
 
-      - name: Build, tag, and push image to Amazon ECR
+      - name: Build and push
         env:
           ECR_REGISTRY: ${{ steps.login-ecr.outputs.registry }}
           ECR_REPOSITORY: nnunet
-          IMAGE_TAG: latest
         run: |
           cd nnunet/container_nnunet
           
-          # Build the Docker image
-          docker build -f Dockerfile -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
+          # Create a temporary train.py with the right defaults
+          cp train.py train_temp.py
+          sed -i "s/default=302/default=${{ matrix.dataset.id }}/" train_temp.py
+          sed -i "s/default='Dataset[0-9]*_[^']*'/default='Dataset${{ matrix.dataset.id }}_${{ matrix.dataset.name }}'/" train_temp.py
           
-          # Push the image to ECR
-          docker push $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
+          # Build with modified train.py
+          docker build \
+            --build-arg DATASET_ID=${{ matrix.dataset.id }} \
+            -f Dockerfile \
+            -t $ECR_REGISTRY/$ECR_REPOSITORY:train-dataset-${{ matrix.dataset.id }} .
           
-          echo "✅ Image pushed successfully: $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG"
+          docker push $ECR_REGISTRY/$ECR_REPOSITORY:train-dataset-${{ matrix.dataset.id }}
+          
+          # Clean up
+          rm train_temp.py
