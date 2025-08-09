@@ -1,0 +1,18 @@
+# PyTorch with CUDA support
+torch==2.1.0+cu121
+torchvision==0.16.0+cu121
+--extra-index-url https://download.pytorch.org/whl/cu121
+
+# Core ML dependencies
+numpy==1.24.3
+scipy==1.10.1
+scikit-learn==1.3.0
+pandas==2.0.3
+Pillow==10.0.0
+
+# Visualization and utilities
+matplotlib==3.7.2
+tqdm==4.65.0
+
+# SageMaker
+sagemaker-training==4.5.0
