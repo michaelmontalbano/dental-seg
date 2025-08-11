@@ -1,0 +1,36 @@
+sagemaker.config INFO - Not applying SDK defaults from location: /Library/Application Support/sagemaker/config.yaml
+sagemaker.config INFO - Not applying SDK defaults from location: /Users/michaelmontalbano/Library/Application Support/sagemaker/config.yaml
+2025-08-05 23:18:24 Starting - Starting the training job
+2025-08-05 23:18:24 Pending - Training job waiting for capacity.........
+2025-08-05 23:19:32 Pending - Preparing the instances for training...
+2025-08-05 23:20:11 Downloading - Downloading input data......
+2025-08-05 23:21:22 Downloading - Downloading the training image...
+2025-08-05 23:21:37 Training - Training image download completed. Training in progress....==========
+== CUDA ==
+==========
+CUDA Version 12.1.1
+Container image Copyright (c) 2016-2023, NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+This container image and its contents are governed by the NVIDIA Deep Learning Container License.
+By pulling and using the container, you accept the terms and conditions of this license:
+https://developer.nvidia.com/ngc/nvidia-deep-learning-container-license
+A copy of this license is made available in this container at /NGC-DL-CONTAINER-LICENSE for your convenience.
+Starting nnU-Net training via SageMaker train wrapper...
+INFO:__main__:Starting nnU-Net training with args: Namespace(data_dir='/opt/ml/input/data/nnUNet_raw', model_dir='/opt/ml/model', task_name='Dataset300_BoneLoss', dataset_id=300, configuration='2d', folds=[0], trainer_class_name='nnUNetTrainer', plans_name='nnUNetPlans', preprocessor_name='DefaultPreprocessor', pretrained_weights=None, num_gpus=1, gpu_memory_target=8, num_workers_dataloader=8, use_compressed_data=False, export_validation_probabilities=False, continue_training=False, only_run_validation=False, disable_checkpointing=False, val_with_best=False, skip_preprocessing=False, distributed=False, disable_lr_mirroring=False)
+INFO:sagemaker-training-toolkit:No Neurons detected (normal if no neurons installed)
+INFO:__main__:nnUNet_raw: /opt/ml/input/data/nnUNet_raw
+INFO:__main__:nnUNet_preprocessed: /opt/ml/input/data/nnUNet_preprocessed
+INFO:__main__:nnUNet_results: /opt/ml/model
+INFO:__main__:Dataset path verified: /opt/ml/input/data/nnUNet_raw/Dataset300_BoneLoss
+INFO:__main__:Dataset confirmed at /opt/ml/input/data/nnUNet_raw/Dataset300_BoneLoss
+INFO:__main__:Found 29420 files in imagesTr
+INFO:__main__:Found 29420 files in labelsTr
+INFO:__main__:Found dataset.json: /opt/ml/input/data/nnUNet_raw/Dataset300_BoneLoss/dataset.json
+INFO:__main__:Original dataset.json keys: ['name', 'description', 'tensorImageSize', 'reference', 'licence', 'release', 'modality', 'labels', 'numTraining', 'numTest', 'channel_names', 'file_ending', 'training', 'test']
+INFO:__main__:dataset.json already has all required keys
+INFO:__main__:Running nnU-Net preprocessing...
+INFO:__main__:Environment check before preprocessing:
+INFO:__main__:  nnUNet_raw: /opt/ml/input/data/nnUNet_raw
+INFO:__main__:  nnUNet_preprocessed: /opt/ml/input/data/nnUNet_preprocessed
+INFO:__main__:  nnUNet_results: /opt/ml/model
+INFO:__main__:Running command: nnUNetv2_plan_and_preprocess -d 300
+✅ SageMaker training job launched: nnunet-20250805-161823
