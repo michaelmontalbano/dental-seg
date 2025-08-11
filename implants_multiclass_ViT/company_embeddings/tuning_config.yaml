@@ -1,0 +1,210 @@
+# Hyperparameter Tuning Configuration
+# This file defines search spaces for different tuning scenarios
+
+default:
+  # Default search space for all tasks
+  hyperparameter_ranges:
+    learning_rate:
+      type: continuous
+      min: 1e-5
+      max: 1e-3
+      scaling: logarithmic
+    batch_size:
+      type: categorical
+      values: [16, 32, 64]
+    model_size:
+      type: categorical
+      values: ['tiny', 'small', 'base']
+    embed_dim:
+      type: categorical
+      values: [128, 256, 512]
+    unfreeze_epoch:
+      type: integer
+      min: 10
+      max: 30
+    full_unfreeze_epoch:
+      type: integer
+      min: 30
+      max: 50
+    company_lr_multiplier:
+      type: continuous
+      min: 0.01
+      max: 0.5
+      scaling: logarithmic
+    weight_decay:
+      type: continuous
+      min: 0.01
+      max: 0.1
+      scaling: logarithmic
+    use_attention:
+      type: categorical
+      values: ['true', 'false']
+  
+  static_hyperparameters:
+    epochs: 60
+    validate_every: 1
+    save_best_only: 'true'
+    warmup_epochs: 5
+    company_checkpoint: 'vit_company.pth'
+
+quick_test:
+  # Reduced search space for quick testing
+  hyperparameter_ranges:
+    learning_rate:
+      type: categorical
+      values: [1e-4, 5e-4]
+    batch_size:
+      type: categorical
+      values: [32]
+    model_size:
+      type: categorical
+      values: ['small', 'base']
+    embed_dim:
+      type: categorical
+      values: [256]
+    unfreeze_epoch:
+      type: categorical
+      values: [20]
+    full_unfreeze_epoch:
+      type: categorical
+      values: [40]
+    company_lr_multiplier:
+      type: categorical
+      values: [0.1]
+    weight_decay:
+      type: categorical
+      values: [0.05]
+    use_attention:
+      type: categorical
+      values: ['true']
+  
+  static_hyperparameters:
+    epochs: 30
+    validate_every: 1
+    save_best_only: 'true'
+    warmup_epochs: 3
+    company_checkpoint: 'vit_company.pth'
+
+extensive:
+  # Extended search space for thorough optimization
+  hyperparameter_ranges:
+    learning_rate:
+      type: continuous
+      min: 5e-6
+      max: 5e-3
+      scaling: logarithmic
+    batch_size:
+      type: categorical
+      values: [8, 16, 32, 64, 128]
+    model_size:
+      type: categorical
+      values: ['tiny', 'small', 'base', 'large']
+    embed_dim:
+      type: categorical
+      values: [64, 128, 256, 512, 768]
+    unfreeze_epoch:
+      type: integer
+      min: 5
+      max: 40
+    full_unfreeze_epoch:
+      type: integer
+      min: 20
+      max: 60
+    company_lr_multiplier:
+      type: continuous
+      min: 0.001
+      max: 1.0
+      scaling: logarithmic
+    weight_decay:
+      type: continuous
+      min: 0.001
+      max: 0.2
+      scaling: logarithmic
+    use_attention:
+      type: categorical
+      values: ['true', 'false']
+    warmup_epochs:
+      type: integer
+      min: 3
+      max: 10
+  
+  static_hyperparameters:
+    epochs: 100
+    validate_every: 1
+    save_best_only: 'true'
+    company_checkpoint: 'vit_company.pth'
+
+# Task-specific configurations
+diameter_specific:
+  # Optimized for diameter regression
+  hyperparameter_ranges:
+    learning_rate:
+      type: continuous
+      min: 5e-5
+      max: 5e-4
+      scaling: logarithmic
+    batch_size:
+      type: categorical
+      values: [32, 64]
+    model_size:
+      type: categorical
+      values: ['small', 'base']
+    embed_dim:
+      type: categorical
+      values: [256, 512]
+    unfreeze_epoch:
+      type: integer
+      min: 15
+      max: 25
+    full_unfreeze_epoch:
+      type: integer
+      min: 35
+      max: 45
+    company_lr_multiplier:
+      type: continuous
+      min: 0.05
+      max: 0.2
+      scaling: logarithmic
+    weight_decay:
+      type: categorical
+      values: [0.05, 0.1]
+    use_attention:
+      type: categorical
+      values: ['true']
+
+length_specific:
+  # Optimized for length regression
+  hyperparameter_ranges:
+    learning_rate:
+      type: continuous
+      min: 1e-5
+      max: 1e-3
+      scaling: logarithmic
+    batch_size:
+      type: categorical
+      values: [16, 32, 64]
+    model_size:
+      type: categorical
+      values: ['small', 'base']
+    embed_dim:
+      type: categorical
+      values: [256, 512]
+    unfreeze_epoch:
+      type: integer
+      min: 10
+      max: 30
+    full_unfreeze_epoch:
+      type: integer
+      min: 30
+      max: 50
+    company_lr_multiplier:
+      type: continuous
+      min: 0.01
+      max: 0.3
+      scaling: logarithmic
+    weight_decay:
+      type: categorical
+      values: [0.05, 0.1]
+    use_attention:
+      type: categorical
+      values: ['true', 'false']
